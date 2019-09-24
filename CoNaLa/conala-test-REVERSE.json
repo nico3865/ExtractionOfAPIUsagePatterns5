@@ -1,0 +1,3002 @@
+[
+  {
+    "intent": "os.kill(os.getpid(), signal.SIGUSR1)",
+    "rewritten_intent": "os.kill(os.getpid(), signal.SIGUSR1)",
+    "question_id": 15080500,
+    "snippet": "send a signal `signal.SIGUSR1` to the current process"
+  },
+  {
+    "intent": "bytes.fromhex('4a4b4c').decode('utf-8')",
+    "rewritten_intent": "bytes.fromhex('4a4b4c').decode('utf-8')",
+    "question_id": 3283984,
+    "snippet": "decode a hex string '4a4b4c' to UTF-8."
+  },
+  {
+    "intent": "all(x == myList[0] for x in myList)",
+    "rewritten_intent": "all(x == myList[0] for x in myList)",
+    "question_id": 3844801,
+    "snippet": "check if all elements in list `myList` are identical"
+  },
+  {
+    "intent": "print('%*s : %*s' % (20, 'Python', 20, 'Very Good'))",
+    "rewritten_intent": "print('%*s : %*s' % (20, 'Python', 20, 'Very Good'))",
+    "question_id": 4302166,
+    "snippet": "format number of spaces between strings `Python`, `:` and `Very Good` to be `20`"
+  },
+  {
+    "intent": "d.decode('cp1251').encode('utf8')",
+    "rewritten_intent": "d.decode('cp1251').encode('utf8')",
+    "question_id": 7555335,
+    "snippet": "How to convert a string from CP-1251 to UTF-8?"
+  },
+  {
+    "intent": "res = {k: v for k, v in list(kwargs.items()) if v is not None}",
+    "rewritten_intent": "res = {k: v for k, v in list(kwargs.items()) if v is not None}",
+    "question_id": 2544710,
+    "snippet": "get rid of None values in dictionary `kwargs`"
+  },
+  {
+    "intent": "res = dict((k, v) for k, v in kwargs.items() if v is not None)",
+    "rewritten_intent": "res = dict((k, v) for k, v in kwargs.items() if v is not None)",
+    "question_id": 2544710,
+    "snippet": "get rid of None values in dictionary `kwargs`"
+  },
+  {
+    "intent": "subprocess.check_output('ps -ef | grep something | wc -l', shell=True)",
+    "rewritten_intent": "subprocess.check_output('ps -ef | grep something | wc -l', shell=True)",
+    "question_id": 14971373,
+    "snippet": "capture final output of a chain of system commands `ps -ef | grep something | wc -l`"
+  },
+  {
+    "intent": "\"\"\"\"\"\".join(['a', 'b', 'c'])",
+    "rewritten_intent": "\"\"\"\"\"\".join(['a', 'b', 'c'])",
+    "question_id": 6726636,
+    "snippet": "concatenate a list of strings `['a', 'b', 'c']`"
+  },
+  {
+    "intent": "pd.Series(list(set(s1).intersection(set(s2))))",
+    "rewritten_intent": "pd.Series(list(set(s1).intersection(set(s2))))",
+    "question_id": 18079563,
+    "snippet": "find intersection data between series `s1` and series `s2`"
+  },
+  {
+    "intent": "client.send('HTTP/1.0 200 OK\\r\\n')",
+    "rewritten_intent": "client.send('HTTP/1.0 200 OK\\r\\n')",
+    "question_id": 8315209,
+    "snippet": "sending http headers to `client`"
+  },
+  {
+    "intent": "then = datetime.datetime.strptime(when, '%Y-%m-%d').date()",
+    "rewritten_intent": "then = datetime.datetime.strptime(when, '%Y-%m-%d').date()",
+    "question_id": 26153795,
+    "snippet": "Format a datetime string `when` to extract date only"
+  },
+  {
+    "intent": "inputString.split('\\n')",
+    "rewritten_intent": "inputString.split('\\n')",
+    "question_id": 172439,
+    "snippet": "split a multi-line string `inputString` into separate strings"
+  },
+  {
+    "intent": "' a \\n b \\r\\n c '.split('\\n')",
+    "rewritten_intent": "' a \\n b \\r\\n c '.split('\\n')",
+    "question_id": 172439,
+    "snippet": "Split a multi-line string ` a \\n b \\r\\n c ` by new line character `\\n`"
+  },
+  {
+    "intent": "\"\"\":\"\"\".join(str(x) for x in b)",
+    "rewritten_intent": "\"\"\":\"\"\".join(str(x) for x in b)",
+    "question_id": 13954222,
+    "snippet": "concatenate elements of list `b` by a colon \":\""
+  },
+  {
+    "intent": "Entry.objects.filter()[:1].get()",
+    "rewritten_intent": "Entry.objects.filter()[:1].get()",
+    "question_id": 5123839,
+    "snippet": "get the first object from a queryset in django model `Entry`"
+  },
+  {
+    "intent": "a.sum(axis=1)",
+    "rewritten_intent": "a.sum(axis=1)",
+    "question_id": 13567345,
+    "snippet": "Calculate sum over all rows of 2D numpy array"
+  },
+  {
+    "intent": "warnings.simplefilter('always')",
+    "rewritten_intent": "warnings.simplefilter('always')",
+    "question_id": 29784889,
+    "snippet": "enable warnings using action 'always'"
+  },
+  {
+    "intent": "print(' '.join(map(str, l)))",
+    "rewritten_intent": "print(' '.join(map(str, l)))",
+    "question_id": 13550423,
+    "snippet": "concatenate items of list `l` with a space ' '"
+  },
+  {
+    "intent": "subprocess.call(['python.exe', 'hello.py', 'htmlfilename.htm'])",
+    "rewritten_intent": "subprocess.call(['python.exe', 'hello.py', 'htmlfilename.htm'])",
+    "question_id": 25651990,
+    "snippet": "run script 'hello.py' with argument 'htmlfilename.htm' on terminal using python executable"
+  },
+  {
+    "intent": "time.strptime('30/03/09 16:31:32.123', '%d/%m/%y %H:%M:%S.%f')",
+    "rewritten_intent": "time.strptime('30/03/09 16:31:32.123', '%d/%m/%y %H:%M:%S.%f')",
+    "question_id": 698223,
+    "snippet": "How can I parse a time string containing milliseconds in it with python?"
+  },
+  {
+    "intent": "my_float = float(my_string.replace(',', ''))",
+    "rewritten_intent": "my_float = float(my_string.replace(',', ''))",
+    "question_id": 6633523,
+    "snippet": "convert a string `my_string` with dot and comma into a float number `my_float`"
+  },
+  {
+    "intent": "float('123,456.908'.replace(',', ''))",
+    "rewritten_intent": "float('123,456.908'.replace(',', ''))",
+    "question_id": 6633523,
+    "snippet": "convert a string `123,456.908` with dot and comma into a floating number"
+  },
+  {
+    "intent": "sys.path.append('/path/to/whatever')",
+    "rewritten_intent": "sys.path.append('/path/to/whatever')",
+    "question_id": 3108285,
+    "snippet": "set pythonpath in python script."
+  },
+  {
+    "intent": "re.split('(\\\\W+)', 'Words, words, words.')",
+    "rewritten_intent": "re.split('(\\\\W+)', 'Words, words, words.')",
+    "question_id": 2195340,
+    "snippet": "split string 'Words, words, words.' using a regex '(\\\\W+)'"
+  },
+  {
+    "intent": "file = open('Output.txt', 'a')",
+    "rewritten_intent": "file = open('Output.txt', 'a')",
+    "question_id": 17977584,
+    "snippet": "open a file `Output.txt` in append mode"
+  },
+  {
+    "intent": "urllib.request.urlretrieve('http://www.example.com/songs/mp3.mp3', 'mp3.mp3')",
+    "rewritten_intent": "urllib.request.urlretrieve('http://www.example.com/songs/mp3.mp3', 'mp3.mp3')",
+    "question_id": 22676,
+    "snippet": "download a file \"http://www.example.com/songs/mp3.mp3\" over HTTP and save to \"mp3.mp3\""
+  },
+  {
+    "intent": "u = urllib.request.urlopen(url)\nf = open(file_name, 'wb')\nmeta = u.info()\nfile_size = int(meta.getheaders('Content-Length')[0])\nprint(('Downloading: %s Bytes: %s' % (file_name, file_size)))\nfile_size_dl = 0\nblock_sz = 8192\nwhile True:\n    buffer = u.read(block_sz)\n    if (not buffer):\n        break\n    file_size_dl += len(buffer)\n    f.write(buffer)\n    status = ('%10d  [%3.2f%%]' % (file_size_dl, ((file_size_dl * 100.0) / file_size)))\n    status = (status + (chr(8) * (len(status) + 1)))\n    print(status, end=' ')\nf.close()",
+    "rewritten_intent": "u = urllib.request.urlopen(url)\nf = open(file_name, 'wb')\nmeta = u.info()\nfile_size = int(meta.getheaders('Content-Length')[0])\nprint(('Downloading: %s Bytes: %s' % (file_name, file_size)))\nfile_size_dl = 0\nblock_sz = 8192\nwhile True:\n    buffer = u.read(block_sz)\n    if (not buffer):\n        break\n    file_size_dl += len(buffer)\n    f.write(buffer)\n    status = ('%10d  [%3.2f%%]' % (file_size_dl, ((file_size_dl * 100.0) / file_size)))\n    status = (status + (chr(8) * (len(status) + 1)))\n    print(status, end=' ')\nf.close()",
+    "question_id": 22676,
+    "snippet": "download a file `url` over HTTP and save to `file_name`"
+  },
+  {
+    "intent": "response = urllib.request.urlopen('http://www.example.com/')\nhtml = response.read()",
+    "rewritten_intent": "response = urllib.request.urlopen('http://www.example.com/')\nhtml = response.read()",
+    "question_id": 22676,
+    "snippet": "download a file 'http://www.example.com/' over HTTP"
+  },
+  {
+    "intent": "r = requests.get(url)",
+    "rewritten_intent": "r = requests.get(url)",
+    "question_id": 22676,
+    "snippet": "download a file `url` over HTTP"
+  },
+  {
+    "intent": "response = requests.get(url, stream=True)\nwith open('10MB', 'wb') as handle:\n    for data in tqdm(response.iter_content()):\n        handle.write(data)",
+    "rewritten_intent": "response = requests.get(url, stream=True)\nwith open('10MB', 'wb') as handle:\n    for data in tqdm(response.iter_content()):\n        handle.write(data)",
+    "question_id": 22676,
+    "snippet": "download a file `url` over HTTP and save to \"10MB\""
+  },
+  {
+    "intent": "parser.add_argument('--version', action='version', version='%(prog)s 2.0')",
+    "rewritten_intent": "parser.add_argument('--version', action='version', version='%(prog)s 2.0')",
+    "question_id": 15405636,
+    "snippet": "argparse add argument with flag '--version' and version action of '%(prog)s 2.0' to parser `parser`"
+  },
+  {
+    "intent": "{i: d[i] for i in d if i != 'c'}",
+    "rewritten_intent": "{i: d[i] for i in d if i != 'c'}",
+    "question_id": 17665809,
+    "snippet": "remove key 'c' from dictionary `d`"
+  },
+  {
+    "intent": "pd.merge(split_df, csv_df, on=['key'], suffixes=('_left', '_right'))",
+    "rewritten_intent": "pd.merge(split_df, csv_df, on=['key'], suffixes=('_left', '_right'))",
+    "question_id": 41861705,
+    "snippet": "Create new DataFrame object by merging columns \"key\" of  dataframes `split_df` and `csv_df` and rename the columns from dataframes `split_df` and `csv_df` with suffix `_left` and `_right` respectively"
+  },
+  {
+    "intent": "s.split(' ', 4)",
+    "rewritten_intent": "s.split(' ', 4)",
+    "question_id": 10697757,
+    "snippet": "Split a string `s` by space with `4` splits"
+  },
+  {
+    "intent": "input('Enter your input:')",
+    "rewritten_intent": "input('Enter your input:')",
+    "question_id": 5404068,
+    "snippet": "read keyboard-input"
+  },
+  {
+    "intent": "app.run(debug=True)",
+    "rewritten_intent": "app.run(debug=True)",
+    "question_id": 16344756,
+    "snippet": "enable debug mode on Flask application `app`"
+  },
+  {
+    "intent": "pickle.dump(mylist, open('save.txt', 'wb'))",
+    "rewritten_intent": "pickle.dump(mylist, open('save.txt', 'wb'))",
+    "question_id": 40133826,
+    "snippet": "python save list `mylist` to file object 'save.txt'"
+  },
+  {
+    "intent": "scipy.tensordot(P, T, axes=[1, 1]).swapaxes(0, 1)",
+    "rewritten_intent": "scipy.tensordot(P, T, axes=[1, 1]).swapaxes(0, 1)",
+    "question_id": 4490961,
+    "snippet": "Multiply a matrix `P` with a 3d tensor `T` in scipy"
+  },
+  {
+    "intent": "numpy.zeros((3, 3, 3))",
+    "rewritten_intent": "numpy.zeros((3, 3, 3))",
+    "question_id": 2173087,
+    "snippet": "Create 3d array of zeroes of size `(3,3,3)`"
+  },
+  {
+    "intent": "\"\"\" \"\"\".join(content.split(' ')[:-1])",
+    "rewritten_intent": "\"\"\" \"\"\".join(content.split(' ')[:-1])",
+    "question_id": 6266727,
+    "snippet": "cut off the last word of a sentence `content`"
+  },
+  {
+    "intent": "x = np.asarray(x).reshape(1, -1)[(0), :]",
+    "rewritten_intent": "x = np.asarray(x).reshape(1, -1)[(0), :]",
+    "question_id": 30385151,
+    "snippet": "convert scalar `x` to array"
+  },
+  {
+    "intent": "sum(sum(i) if isinstance(i, list) else i for i in L)",
+    "rewritten_intent": "sum(sum(i) if isinstance(i, list) else i for i in L)",
+    "question_id": 15856127,
+    "snippet": "sum all elements of nested list `L`"
+  },
+  {
+    "intent": "struct.unpack('!f', '470FC614'.decode('hex'))[0]",
+    "rewritten_intent": "struct.unpack('!f', '470FC614'.decode('hex'))[0]",
+    "question_id": 1592158,
+    "snippet": "convert hex string '470FC614' to a float number"
+  },
+  {
+    "intent": "my_dict.update((x, y * 2) for x, y in list(my_dict.items()))",
+    "rewritten_intent": "my_dict.update((x, y * 2) for x, y in list(my_dict.items()))",
+    "question_id": 5010536,
+    "snippet": "Multiple each value by `2` for all keys in a dictionary `my_dict`"
+  },
+  {
+    "intent": "subprocess.call('sleep.sh', shell=True)",
+    "rewritten_intent": "subprocess.call('sleep.sh', shell=True)",
+    "question_id": 13745648,
+    "snippet": "running bash script 'sleep.sh'"
+  },
+  {
+    "intent": "\"\"\",\"\"\".join(l)",
+    "rewritten_intent": "\"\"\",\"\"\".join(l)",
+    "question_id": 44778,
+    "snippet": "Join elements of list `l` with a comma `,`"
+  },
+  {
+    "intent": "myList = ','.join(map(str, myList))",
+    "rewritten_intent": "myList = ','.join(map(str, myList))",
+    "question_id": 44778,
+    "snippet": "make a comma-separated string from a list `myList`"
+  },
+  {
+    "intent": "list(reversed(list(range(10))))",
+    "rewritten_intent": "list(reversed(list(range(10))))",
+    "question_id": 7286365,
+    "snippet": "reverse the list that contains 1 to 10"
+  },
+  {
+    "intent": "print('lamp, bag, mirror'.replace('bag,', ''))",
+    "rewritten_intent": "print('lamp, bag, mirror'.replace('bag,', ''))",
+    "question_id": 18454570,
+    "snippet": "remove substring 'bag,' from a string 'lamp, bag, mirror'"
+  },
+  {
+    "intent": "\"\"\".\"\"\".join(s.split('.')[::-1])",
+    "rewritten_intent": "\"\"\".\"\"\".join(s.split('.')[::-1])",
+    "question_id": 4357787,
+    "snippet": "Reverse the order of words, delimited by `.`, in string `s`"
+  },
+  {
+    "intent": "datetime.datetime.fromtimestamp(s).strftime('%Y-%m-%d %H:%M:%S.%f')",
+    "rewritten_intent": "datetime.datetime.fromtimestamp(s).strftime('%Y-%m-%d %H:%M:%S.%f')",
+    "question_id": 21787496,
+    "snippet": "convert epoch time represented as milliseconds `s` to string using format '%Y-%m-%d %H:%M:%S.%f'"
+  },
+  {
+    "intent": "time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(1236472051807 / 1000.0))",
+    "rewritten_intent": "time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(1236472051807 / 1000.0))",
+    "question_id": 21787496,
+    "snippet": "parse milliseconds epoch time '1236472051807' to format '%Y-%m-%d %H:%M:%S'"
+  },
+  {
+    "intent": "(datetime.datetime.now() - datetime.timedelta(days=7)).date()",
+    "rewritten_intent": "(datetime.datetime.now() - datetime.timedelta(days=7)).date()",
+    "question_id": 20573459,
+    "snippet": "get the date 7 days before the current date"
+  },
+  {
+    "intent": "print(sum(row[column] for row in data))",
+    "rewritten_intent": "print(sum(row[column] for row in data))",
+    "question_id": 15352457,
+    "snippet": "sum elements at index `column` of each list in list `data`"
+  },
+  {
+    "intent": "[sum(row[i] for row in array) for i in range(len(array[0]))]",
+    "rewritten_intent": "[sum(row[i] for row in array) for i in range(len(array[0]))]",
+    "question_id": 15352457,
+    "snippet": "sum columns of a list `array`"
+  },
+  {
+    "intent": "base64.b64encode(bytes('your string', 'utf-8'))",
+    "rewritten_intent": "base64.b64encode(bytes('your string', 'utf-8'))",
+    "question_id": 23164058,
+    "snippet": "encode binary string 'your string' to base64 code"
+  },
+  {
+    "intent": "dict((k, [d[k] for d in dicts]) for k in dicts[0])",
+    "rewritten_intent": "dict((k, [d[k] for d in dicts]) for k in dicts[0])",
+    "question_id": 11533274,
+    "snippet": "combine list of dictionaries `dicts` with the same keys in each list to a single dictionary"
+  },
+  {
+    "intent": "{k: [d[k] for d in dicts] for k in dicts[0]}",
+    "rewritten_intent": "{k: [d[k] for d in dicts] for k in dicts[0]}",
+    "question_id": 11533274,
+    "snippet": "Merge a nested dictionary `dicts` into a flat dictionary by concatenating nested values with the same key `k`"
+  },
+  {
+    "intent": "request.args['myParam']",
+    "rewritten_intent": "request.args['myParam']",
+    "question_id": 14026704,
+    "snippet": "How do I get the url parameter in a Flask view"
+  },
+  {
+    "intent": "[k for k, v in list(Counter(mylist).items()) if v > 1]",
+    "rewritten_intent": "[k for k, v in list(Counter(mylist).items()) if v > 1]",
+    "question_id": 11236006,
+    "snippet": "identify duplicate values in list `mylist`"
+  },
+  {
+    "intent": "sys.path.insert(1, os.path.join(os.path.dirname(__file__), 'apps'))",
+    "rewritten_intent": "sys.path.insert(1, os.path.join(os.path.dirname(__file__), 'apps'))",
+    "question_id": 2354166,
+    "snippet": "Insert directory 'apps' into directory `__file__`"
+  },
+  {
+    "intent": "sys.path.append(os.path.join(os.path.dirname(__file__), 'subdir'))",
+    "rewritten_intent": "sys.path.append(os.path.join(os.path.dirname(__file__), 'subdir'))",
+    "question_id": 2354166,
+    "snippet": "modify sys.path for python module `subdir`"
+  },
+  {
+    "intent": "db.execute(\"INSERT INTO present VALUES('test2', ?, 10)\", (None,))",
+    "rewritten_intent": "db.execute(\"INSERT INTO present VALUES('test2', ?, 10)\", (None,))",
+    "question_id": 20211942,
+    "snippet": "Insert a 'None' value into a SQLite3 table."
+  },
+  {
+    "intent": "[image for menuitem in list_of_menuitems for image in menuitem]",
+    "rewritten_intent": "[image for menuitem in list_of_menuitems for image in menuitem]",
+    "question_id": 406121,
+    "snippet": "flatten list `list_of_menuitems`"
+  },
+  {
+    "intent": "a.extend(b)",
+    "rewritten_intent": "a.extend(b)",
+    "question_id": 4741537,
+    "snippet": "append elements of a set `b` to a list `a`"
+  },
+  {
+    "intent": "a.extend(list(b))",
+    "rewritten_intent": "a.extend(list(b))",
+    "question_id": 4741537,
+    "snippet": "Append elements of a set to a list in Python"
+  },
+  {
+    "intent": "np.savetxt('c:\\\\data\\\\np.txt', df.values, fmt='%d')",
+    "rewritten_intent": "np.savetxt('c:\\\\data\\\\np.txt', df.values, fmt='%d')",
+    "question_id": 31247198,
+    "snippet": "write the data of dataframe `df` into text file `np.txt`"
+  },
+  {
+    "intent": "df.to_csv('c:\\\\data\\\\pandas.txt', header=None, index=None, sep=' ', mode='a')",
+    "rewritten_intent": "df.to_csv('c:\\\\data\\\\pandas.txt', header=None, index=None, sep=' ', mode='a')",
+    "question_id": 31247198,
+    "snippet": "write content of DataFrame `df` into text file 'c:\\\\data\\\\pandas.txt'"
+  },
+  {
+    "intent": "print(x.rpartition('-')[0])",
+    "rewritten_intent": "print(x.rpartition('-')[0])",
+    "question_id": 15851568,
+    "snippet": "Split a string `x` by last occurrence of character `-`"
+  },
+  {
+    "intent": "print(x.rsplit('-', 1)[0])",
+    "rewritten_intent": "print(x.rsplit('-', 1)[0])",
+    "question_id": 15851568,
+    "snippet": "get the last part of a string before the character '-'"
+  },
+  {
+    "intent": "ftp.storlines('STOR ' + filename, open(filename, 'r'))",
+    "rewritten_intent": "ftp.storlines('STOR ' + filename, open(filename, 'r'))",
+    "question_id": 17438096,
+    "snippet": "upload file using FTP"
+  },
+  {
+    "intent": "browser.execute_script(\"document.getElementById('XYZ').value+='1'\")",
+    "rewritten_intent": "browser.execute_script(\"document.getElementById('XYZ').value+='1'\")",
+    "question_id": 15049182,
+    "snippet": "add one to the hidden web element with id 'XYZ' with selenium python script"
+  },
+  {
+    "intent": "np.maximum([2, 3, 4], [1, 5, 2])",
+    "rewritten_intent": "np.maximum([2, 3, 4], [1, 5, 2])",
+    "question_id": 28742436,
+    "snippet": "create array containing the maximum value of respective elements of array `[2, 3, 4]` and array `[1, 5, 2]`"
+  },
+  {
+    "intent": "print(l[3:] + l[:3])",
+    "rewritten_intent": "print(l[3:] + l[:3])",
+    "question_id": 34280147,
+    "snippet": "print a list `l` and move first 3 elements to the end of the list"
+  },
+  {
+    "intent": "for fn in os.listdir('.'):\n    if os.path.isfile(fn):\n        pass",
+    "rewritten_intent": "for fn in os.listdir('.'):\n    if os.path.isfile(fn):\n        pass",
+    "question_id": 11801309,
+    "snippet": "loop over files in directory '.'"
+  },
+  {
+    "intent": "for (root, dirs, filenames) in os.walk(source):\n    for f in filenames:\n        pass",
+    "rewritten_intent": "for (root, dirs, filenames) in os.walk(source):\n    for f in filenames:\n        pass",
+    "question_id": 11801309,
+    "snippet": "loop over files in directory `source`"
+  },
+  {
+    "intent": "[int(1000 * random.random()) for i in range(10000)]",
+    "rewritten_intent": "[int(1000 * random.random()) for i in range(10000)]",
+    "question_id": 4172131,
+    "snippet": "create a random list of integers"
+  },
+  {
+    "intent": "datetime.datetime.now().strftime('%H:%M:%S.%f')",
+    "rewritten_intent": "datetime.datetime.now().strftime('%H:%M:%S.%f')",
+    "question_id": 6677332,
+    "snippet": "Using %f with strftime() in Python to get microseconds"
+  },
+  {
+    "intent": "db.GqlQuery('SELECT * FROM Schedule WHERE station = $1', foo.key())",
+    "rewritten_intent": "db.GqlQuery('SELECT * FROM Schedule WHERE station = $1', foo.key())",
+    "question_id": 852055,
+    "snippet": "Google App Engine execute GQL query 'SELECT * FROM Schedule WHERE station = $1' with parameter `foo.key()`"
+  },
+  {
+    "intent": "df.b.str.contains('^f')",
+    "rewritten_intent": "df.b.str.contains('^f')",
+    "question_id": 15325182,
+    "snippet": "filter rows in pandas starting with alphabet 'f' using regular expression."
+  },
+  {
+    "intent": "print('\\n'.join('\\t'.join(str(col) for col in row) for row in tab))",
+    "rewritten_intent": "print('\\n'.join('\\t'.join(str(col) for col in row) for row in tab))",
+    "question_id": 583557,
+    "snippet": "print a 2 dimensional list `tab` as a table with delimiters"
+  },
+  {
+    "intent": "df.set_index(list('BC')).drop(tuples, errors='ignore').reset_index()",
+    "rewritten_intent": "df.set_index(list('BC')).drop(tuples, errors='ignore').reset_index()",
+    "question_id": 38535931,
+    "snippet": "pandas: delete rows in dataframe `df` based on multiple columns values"
+  },
+  {
+    "intent": "\"\"\"({:d} goals, ${:d})\"\"\".format(self.goals, self.penalties)",
+    "rewritten_intent": "\"\"\"({:d} goals, ${:d})\"\"\".format(self.goals, self.penalties)",
+    "question_id": 13945749,
+    "snippet": "format the variables `self.goals` and `self.penalties` using string formatting"
+  },
+  {
+    "intent": "\"\"\"({} goals, ${})\"\"\".format(self.goals, self.penalties)",
+    "rewritten_intent": "\"\"\"({} goals, ${})\"\"\".format(self.goals, self.penalties)",
+    "question_id": 13945749,
+    "snippet": "format string \"({} goals, ${})\" with variables `goals` and `penalties`"
+  },
+  {
+    "intent": "\"\"\"({0.goals} goals, ${0.penalties})\"\"\".format(self)",
+    "rewritten_intent": "\"\"\"({0.goals} goals, ${0.penalties})\"\"\".format(self)",
+    "question_id": 13945749,
+    "snippet": "format string \"({0.goals} goals, ${0.penalties})\""
+  },
+  {
+    "intent": "[int(''.join(str(d) for d in x)) for x in L]",
+    "rewritten_intent": "[int(''.join(str(d) for d in x)) for x in L]",
+    "question_id": 18524642,
+    "snippet": "convert list of lists `L` to list of integers"
+  },
+  {
+    "intent": "[''.join(str(d) for d in x) for x in L]",
+    "rewritten_intent": "[''.join(str(d) for d in x) for x in L]",
+    "question_id": 18524642,
+    "snippet": "combine elements of each list in list `L` into digits of a single integer"
+  },
+  {
+    "intent": "L = [int(''.join([str(y) for y in x])) for x in L]",
+    "rewritten_intent": "L = [int(''.join([str(y) for y in x])) for x in L]",
+    "question_id": 18524642,
+    "snippet": "convert a list of lists `L` to list of integers"
+  },
+  {
+    "intent": "myfile.write('\\n'.join(lines))",
+    "rewritten_intent": "myfile.write('\\n'.join(lines))",
+    "question_id": 7138686,
+    "snippet": "write the elements of list `lines` concatenated by special character '\\n' to file `myfile`"
+  },
+  {
+    "intent": "[x for x in ['AAT', 'XAC', 'ANT', 'TTA'] if 'X' not in x and 'N' not in x]",
+    "rewritten_intent": "[x for x in ['AAT', 'XAC', 'ANT', 'TTA'] if 'X' not in x and 'N' not in x]",
+    "question_id": 1866343,
+    "snippet": "removing an element from a list based on a predicate 'X' or 'N'"
+  },
+  {
+    "intent": "text = re.sub('\\\\b(\\\\w+)( \\\\1\\\\b)+', '\\\\1', text)",
+    "rewritten_intent": "text = re.sub('\\\\b(\\\\w+)( \\\\1\\\\b)+', '\\\\1', text)",
+    "question_id": 17238587,
+    "snippet": "Remove duplicate words from a string `text` using regex"
+  },
+  {
+    "intent": "df.astype(bool).sum(axis=1)",
+    "rewritten_intent": "df.astype(bool).sum(axis=1)",
+    "question_id": 26053849,
+    "snippet": "count non zero values in each column in pandas data frame"
+  },
+  {
+    "intent": "re.search('(?<!Distillr)\\\\\\\\AcroTray\\\\.exe', 'C:\\\\SomeDir\\\\AcroTray.exe')",
+    "rewritten_intent": "re.search('(?<!Distillr)\\\\\\\\AcroTray\\\\.exe', 'C:\\\\SomeDir\\\\AcroTray.exe')",
+    "question_id": 15534223,
+    "snippet": "search for string that matches regular expression pattern '(?<!Distillr)\\\\\\\\AcroTray\\\\.exe' in string 'C:\\\\SomeDir\\\\AcroTray.exe'"
+  },
+  {
+    "intent": "\"\"\"QH QD JC KD JS\"\"\".split()",
+    "rewritten_intent": "\"\"\"QH QD JC KD JS\"\"\".split()",
+    "question_id": 5453026,
+    "snippet": "split string 'QH QD JC KD JS' into a list on white spaces"
+  },
+  {
+    "intent": "print(re.search('>.*<', line).group(0))",
+    "rewritten_intent": "print(re.search('>.*<', line).group(0))",
+    "question_id": 18168684,
+    "snippet": "search for occurrences of regex pattern '>.*<' in xml string `line`"
+  },
+  {
+    "intent": "open(filename, 'w').close()",
+    "rewritten_intent": "open(filename, 'w').close()",
+    "question_id": 4914277,
+    "snippet": "erase all the contents of a file `filename`"
+  },
+  {
+    "intent": "datetime.datetime.strptime(string_date, '%Y-%m-%d %H:%M:%S.%f')",
+    "rewritten_intent": "datetime.datetime.strptime(string_date, '%Y-%m-%d %H:%M:%S.%f')",
+    "question_id": 19068269,
+    "snippet": "convert a string into datetime using the format '%Y-%m-%d %H:%M:%S.%f'"
+  },
+  {
+    "intent": "[index for index, item in enumerate(thelist) if item[0] == '332']",
+    "rewritten_intent": "[index for index, item in enumerate(thelist) if item[0] == '332']",
+    "question_id": 20683167,
+    "snippet": "find the index of a list with the first element equal to '332' within the list of lists `thelist`"
+  },
+  {
+    "intent": "re.sub('[^\\\\sa-zA-Z0-9]', '', text).lower().strip()",
+    "rewritten_intent": "re.sub('[^\\\\sa-zA-Z0-9]', '', text).lower().strip()",
+    "question_id": 30693804,
+    "snippet": "lower a string `text` and remove non-alphanumeric characters aside from space"
+  },
+  {
+    "intent": "re.sub('(?!\\\\s)[\\\\W_]', '', text).lower().strip()",
+    "rewritten_intent": "re.sub('(?!\\\\s)[\\\\W_]', '', text).lower().strip()",
+    "question_id": 30693804,
+    "snippet": "remove all non-alphanumeric characters except space from a string `text` and lower it"
+  },
+  {
+    "intent": "plt.plot(x, y, label='H\\u2082O')",
+    "rewritten_intent": "plt.plot(x, y, label='H\\u2082O')",
+    "question_id": 17138464,
+    "snippet": "subscript text 'H20' with '2' as subscripted in matplotlib labels for arrays 'x' and 'y'."
+  },
+  {
+    "intent": "plt.plot(x, y, label='$H_2O$')",
+    "rewritten_intent": "plt.plot(x, y, label='$H_2O$')",
+    "question_id": 17138464,
+    "snippet": "subscript text 'H20' with '2' as subscripted in matplotlib labels for arrays 'x' and 'y'."
+  },
+  {
+    "intent": "[x for x in mylist if len(x) == 3]",
+    "rewritten_intent": "[x for x in mylist if len(x) == 3]",
+    "question_id": 9138112,
+    "snippet": "loop over a list `mylist` if sublists length equals 3"
+  },
+  {
+    "intent": "lst = [Object() for _ in range(100)]",
+    "rewritten_intent": "lst = [Object() for _ in range(100)]",
+    "question_id": 1807026,
+    "snippet": "initialize a list `lst` of 100 objects Object()"
+  },
+  {
+    "intent": "lst = [Object() for i in range(100)]",
+    "rewritten_intent": "lst = [Object() for i in range(100)]",
+    "question_id": 1807026,
+    "snippet": "create list `lst` containing 100 instances of object `Object`"
+  },
+  {
+    "intent": "self.driver.find_element_by_css_selector('.someclass a').get_attribute('href')",
+    "rewritten_intent": "self.driver.find_element_by_css_selector('.someclass a').get_attribute('href')",
+    "question_id": 19664253,
+    "snippet": "get the content of child tag with`href` attribute whose parent has css `someclass`"
+  },
+  {
+    "intent": "df1.merge(df2, on='Date_Time')",
+    "rewritten_intent": "df1.merge(df2, on='Date_Time')",
+    "question_id": 13793321,
+    "snippet": "joining data from dataframe `df1` with data from dataframe `df2` based on matching values of column 'Date_Time' in both dataframes"
+  },
+  {
+    "intent": "'first string is: %s, second one is: %s' % (str1, 'geo.tif')",
+    "rewritten_intent": "'first string is: %s, second one is: %s' % (str1, 'geo.tif')",
+    "question_id": 3367288,
+    "snippet": "use `%s` operator to print variable values `str1` inside a string"
+  },
+  {
+    "intent": "[x.strip() for x in '2.MATCHES $$TEXT$$ STRING'.split('$$TEXT$$')]",
+    "rewritten_intent": "[x.strip() for x in '2.MATCHES $$TEXT$$ STRING'.split('$$TEXT$$')]",
+    "question_id": 3475251,
+    "snippet": "Split a string by a delimiter in python"
+  },
+  {
+    "intent": "if (not os.path.exists(directory)):\n    os.makedirs(directory)",
+    "rewritten_intent": "if (not os.path.exists(directory)):\n    os.makedirs(directory)",
+    "question_id": 273192,
+    "snippet": "check if directory `directory ` exists and create it if necessary"
+  },
+  {
+    "intent": "try:\n    os.makedirs(path)\nexcept OSError:\n    if (not os.path.isdir(path)):\n        raise",
+    "rewritten_intent": "try:\n    os.makedirs(path)\nexcept OSError:\n    if (not os.path.isdir(path)):\n        raise",
+    "question_id": 273192,
+    "snippet": "check if a directory `path` exists and create it if necessary"
+  },
+  {
+    "intent": "distutils.dir_util.mkpath(path)",
+    "rewritten_intent": "distutils.dir_util.mkpath(path)",
+    "question_id": 273192,
+    "snippet": "check if a directory `path` exists and create it if necessary"
+  },
+  {
+    "intent": "try:\n    os.makedirs(path)\nexcept OSError as exception:\n    if (exception.errno != errno.EEXIST):\n        raise",
+    "rewritten_intent": "try:\n    os.makedirs(path)\nexcept OSError as exception:\n    if (exception.errno != errno.EEXIST):\n        raise",
+    "question_id": 273192,
+    "snippet": "check if a directory `path` exists and create it if necessary"
+  },
+  {
+    "intent": "re.sub('\\\\bH3\\\\b', 'H1', text)",
+    "rewritten_intent": "re.sub('\\\\bH3\\\\b', 'H1', text)",
+    "question_id": 18785032,
+    "snippet": "Replace a separate word 'H3' by 'H1' in a string 'text'"
+  },
+  {
+    "intent": "re.sub('\\\\D', '', 'aas30dsa20')",
+    "rewritten_intent": "re.sub('\\\\D', '', 'aas30dsa20')",
+    "question_id": 1450897,
+    "snippet": "substitute ASCII letters in string 'aas30dsa20' with empty string ''"
+  },
+  {
+    "intent": "\"\"\"\"\"\".join([x for x in 'aas30dsa20' if x.isdigit()])",
+    "rewritten_intent": "\"\"\"\"\"\".join([x for x in 'aas30dsa20' if x.isdigit()])",
+    "question_id": 1450897,
+    "snippet": "get digits only from a string `aas30dsa20` using lambda function"
+  },
+  {
+    "intent": "print(soup.find('name').string)",
+    "rewritten_intent": "print(soup.find('name').string)",
+    "question_id": 14435268,
+    "snippet": "access a tag called \"name\" in beautifulsoup `soup`"
+  },
+  {
+    "intent": "records = dict((record['_id'], record) for record in cursor)",
+    "rewritten_intent": "records = dict((record['_id'], record) for record in cursor)",
+    "question_id": 4928274,
+    "snippet": "get a dictionary `records` of key-value pairs in PyMongo cursor `cursor`"
+  },
+  {
+    "intent": "np.concatenate((A, B))",
+    "rewritten_intent": "np.concatenate((A, B))",
+    "question_id": 20180210,
+    "snippet": "Create new matrix object  by concatenating data from matrix A and matrix B"
+  },
+  {
+    "intent": "np.vstack((A, B))",
+    "rewritten_intent": "np.vstack((A, B))",
+    "question_id": 20180210,
+    "snippet": "concat two matrices `A` and `B` in numpy"
+  },
+  {
+    "intent": "os.stat(filepath).st_size",
+    "rewritten_intent": "os.stat(filepath).st_size",
+    "question_id": 2011048,
+    "snippet": "Get the characters count in a file `filepath`"
+  },
+  {
+    "intent": "l.count('a')",
+    "rewritten_intent": "l.count('a')",
+    "question_id": 2600191,
+    "snippet": "count the occurrences of item \"a\" in list `l`"
+  },
+  {
+    "intent": "Counter(l)",
+    "rewritten_intent": "Counter(l)",
+    "question_id": 2600191,
+    "snippet": "count the occurrences of items in list `l`"
+  },
+  {
+    "intent": "[[x, l.count(x)] for x in set(l)]",
+    "rewritten_intent": "[[x, l.count(x)] for x in set(l)]",
+    "question_id": 2600191,
+    "snippet": "count the occurrences of items in list `l`"
+  },
+  {
+    "intent": "dict(((x, l.count(x)) for x in set(l)))",
+    "rewritten_intent": "dict(((x, l.count(x)) for x in set(l)))",
+    "question_id": 2600191,
+    "snippet": "count the occurrences of items in list `l`"
+  },
+  {
+    "intent": "l.count('b')",
+    "rewritten_intent": "l.count('b')",
+    "question_id": 2600191,
+    "snippet": "count the occurrences of item \"b\" in list `l`"
+  },
+  {
+    "intent": "shutil.copy(srcfile, dstdir)",
+    "rewritten_intent": "shutil.copy(srcfile, dstdir)",
+    "question_id": 12842997,
+    "snippet": "copy file `srcfile` to directory `dstdir`"
+  },
+  {
+    "intent": "max(k for k, v in x.items() if v != 0)",
+    "rewritten_intent": "max(k for k, v in x.items() if v != 0)",
+    "question_id": 1555968,
+    "snippet": "find the key associated with the largest value in dictionary `x` whilst key is non-zero value"
+  },
+  {
+    "intent": "(k for k, v in x.items() if v != 0)",
+    "rewritten_intent": "(k for k, v in x.items() if v != 0)",
+    "question_id": 1555968,
+    "snippet": "get the largest key whose not associated with value of 0 in dictionary `x`"
+  },
+  {
+    "intent": "max(k for k, v in x.items() if v != 0)",
+    "rewritten_intent": "max(k for k, v in x.items() if v != 0)",
+    "question_id": 1555968,
+    "snippet": "get the largest key in a dictionary `x` with non-zero value"
+  },
+  {
+    "intent": "file.seek(0)",
+    "rewritten_intent": "file.seek(0)",
+    "question_id": 17021863,
+    "snippet": "Put the curser at beginning of the file"
+  },
+  {
+    "intent": "df['c'] = np.where(df['a'].isnull, df['b'], df['a'])",
+    "rewritten_intent": "df['c'] = np.where(df['a'].isnull, df['b'], df['a'])",
+    "question_id": 38152389,
+    "snippet": "combine values from column 'b' and column 'a' of dataframe `df`  into column 'c' of datafram `df`"
+  },
+  {
+    "intent": "del d['ele']",
+    "rewritten_intent": "del d['ele']",
+    "question_id": 4175686,
+    "snippet": "remove key 'ele' from dictionary `d`"
+  },
+  {
+    "intent": "MyModel.objects.update(timestamp=F('timestamp') + timedelta(days=36524.25))",
+    "rewritten_intent": "MyModel.objects.update(timestamp=F('timestamp') + timedelta(days=36524.25))",
+    "question_id": 5871168,
+    "snippet": "Update datetime field in `MyModel` to be the existing `timestamp` plus 100 years"
+  },
+  {
+    "intent": "['it'] + ['was'] + ['annoying']",
+    "rewritten_intent": "['it'] + ['was'] + ['annoying']",
+    "question_id": 11574195,
+    "snippet": "merge list `['it']` and list `['was']` and list `['annoying']` into one list"
+  },
+  {
+    "intent": "str(int(x) + 1).zfill(len(x))",
+    "rewritten_intent": "str(int(x) + 1).zfill(len(x))",
+    "question_id": 587647,
+    "snippet": "increment a value with leading zeroes in a number `x`"
+  },
+  {
+    "intent": "all(df.index[:-1] <= df.index[1:])",
+    "rewritten_intent": "all(df.index[:-1] <= df.index[1:])",
+    "question_id": 17315881,
+    "snippet": "check if a pandas dataframe `df`'s index is sorted"
+  },
+  {
+    "intent": "list(t)",
+    "rewritten_intent": "list(t)",
+    "question_id": 16296643,
+    "snippet": "Convert tuple `t` to list"
+  },
+  {
+    "intent": "tuple(l)",
+    "rewritten_intent": "tuple(l)",
+    "question_id": 16296643,
+    "snippet": "Convert list `t` to tuple"
+  },
+  {
+    "intent": "level1 = map(list, level1)",
+    "rewritten_intent": "level1 = map(list, level1)",
+    "question_id": 16296643,
+    "snippet": "Convert tuple `level1` to list"
+  },
+  {
+    "intent": "pprint.pprint(dataobject, logFile)",
+    "rewritten_intent": "pprint.pprint(dataobject, logFile)",
+    "question_id": 3880399,
+    "snippet": "send the output of pprint object `dataobject` to file `logFile`"
+  },
+  {
+    "intent": "df.loc[df['BoolCol']]",
+    "rewritten_intent": "df.loc[df['BoolCol']]",
+    "question_id": 21800169,
+    "snippet": "get index of rows in column 'BoolCol'"
+  },
+  {
+    "intent": "df.iloc[np.flatnonzero(df['BoolCol'])]",
+    "rewritten_intent": "df.iloc[np.flatnonzero(df['BoolCol'])]",
+    "question_id": 21800169,
+    "snippet": "Create a list containing the indexes of rows where the value of column 'BoolCol' in dataframe `df` are equal to True"
+  },
+  {
+    "intent": "df[df['BoolCol'] == True].index.tolist()",
+    "rewritten_intent": "df[df['BoolCol'] == True].index.tolist()",
+    "question_id": 21800169,
+    "snippet": "get list of indexes of rows where column 'BoolCol' values match True"
+  },
+  {
+    "intent": "df[df['BoolCol']].index.tolist()",
+    "rewritten_intent": "df[df['BoolCol']].index.tolist()",
+    "question_id": 21800169,
+    "snippet": "get index of rows in dataframe `df` which column 'BoolCol' matches value True"
+  },
+  {
+    "intent": "os.chdir(owd)",
+    "rewritten_intent": "os.chdir(owd)",
+    "question_id": 299446,
+    "snippet": "change working directory to the directory `owd`"
+  },
+  {
+    "intent": "c.execute(\"INSERT INTO test VALUES (?, 'bar')\", (testfield,))",
+    "rewritten_intent": "c.execute(\"INSERT INTO test VALUES (?, 'bar')\", (testfield,))",
+    "question_id": 14695134,
+    "snippet": "insert data from a string `testfield` to sqlite db `c`"
+  },
+  {
+    "intent": "\"\"\"\\\\x89\\\\n\"\"\".decode('string_escape')",
+    "rewritten_intent": "\"\"\"\\\\x89\\\\n\"\"\".decode('string_escape')",
+    "question_id": 24242433,
+    "snippet": "decode string \"\\\\x89\\\\n\" into a normal string"
+  },
+  {
+    "intent": "raw_string.decode('string_escape')",
+    "rewritten_intent": "raw_string.decode('string_escape')",
+    "question_id": 24242433,
+    "snippet": "convert a raw string `raw_string` into a normal string"
+  },
+  {
+    "intent": "raw_byte_string.decode('unicode_escape')",
+    "rewritten_intent": "raw_byte_string.decode('unicode_escape')",
+    "question_id": 24242433,
+    "snippet": "convert a raw string `raw_byte_string` into a normal string"
+  },
+  {
+    "intent": "[m.group(0) for m in re.finditer('(\\\\d)\\\\1*', s)]",
+    "rewritten_intent": "[m.group(0) for m in re.finditer('(\\\\d)\\\\1*', s)]",
+    "question_id": 22882922,
+    "snippet": "split a string `s` with into all strings of repeated characters"
+  },
+  {
+    "intent": "plt.scatter(np.random.randn(100), np.random.randn(100), facecolors='none')",
+    "rewritten_intent": "plt.scatter(np.random.randn(100), np.random.randn(100), facecolors='none')",
+    "question_id": 4143502,
+    "snippet": "scatter a plot with x, y position of `np.random.randn(100)` and face color equal to none"
+  },
+  {
+    "intent": "plt.plot(np.random.randn(100), np.random.randn(100), 'o', mfc='none')",
+    "rewritten_intent": "plt.plot(np.random.randn(100), np.random.randn(100), 'o', mfc='none')",
+    "question_id": 4143502,
+    "snippet": "do a scatter plot with empty circles"
+  },
+  {
+    "intent": "soup.find('div', id='main-content').decompose()",
+    "rewritten_intent": "soup.find('div', id='main-content').decompose()",
+    "question_id": 32063985,
+    "snippet": "remove a div with a id `main-content` using beautifulsoup"
+  },
+  {
+    "intent": "df[df['ids'].str.contains('ball')]",
+    "rewritten_intent": "df[df['ids'].str.contains('ball')]",
+    "question_id": 27975069,
+    "snippet": "filter rows containing key word `ball` in column `ids`"
+  },
+  {
+    "intent": "df.reset_index(level=0, inplace=True)",
+    "rewritten_intent": "df.reset_index(level=0, inplace=True)",
+    "question_id": 20461165,
+    "snippet": "convert index at level 0 into a column in dataframe `df`"
+  },
+  {
+    "intent": "df['index1'] = df.index",
+    "rewritten_intent": "df['index1'] = df.index",
+    "question_id": 20461165,
+    "snippet": "Add indexes in a data frame `df` to a column `index1`"
+  },
+  {
+    "intent": "df.reset_index(level=['tick', 'obs'])",
+    "rewritten_intent": "df.reset_index(level=['tick', 'obs'])",
+    "question_id": 20461165,
+    "snippet": "convert pandas index in a dataframe to columns"
+  },
+  {
+    "intent": "[x[::-1] for x in b]",
+    "rewritten_intent": "[x[::-1] for x in b]",
+    "question_id": 4685571,
+    "snippet": "Get reverse of list items from list 'b' using extended slicing"
+  },
+  {
+    "intent": "np.array([zip(x, y) for x, y in zip(a, b)])",
+    "rewritten_intent": "np.array([zip(x, y) for x, y in zip(a, b)])",
+    "question_id": 17960441,
+    "snippet": "join each element in array `a` with element at the same index in array `b` as a tuple"
+  },
+  {
+    "intent": "np.array(zip(a.ravel(), b.ravel()), dtype='i4,i4').reshape(a.shape)",
+    "rewritten_intent": "np.array(zip(a.ravel(), b.ravel()), dtype='i4,i4').reshape(a.shape)",
+    "question_id": 17960441,
+    "snippet": "zip two 2-d arrays `a` and `b`"
+  },
+  {
+    "intent": "\"\"\",\"\"\".join([str(i) for i in list_of_ints])",
+    "rewritten_intent": "\"\"\",\"\"\".join([str(i) for i in list_of_ints])",
+    "question_id": 438684,
+    "snippet": "convert list `list_of_ints` into a comma separated string"
+  },
+  {
+    "intent": "requests.post(url, data=DATA, headers=HEADERS_DICT, auth=(username, password))",
+    "rewritten_intent": "requests.post(url, data=DATA, headers=HEADERS_DICT, auth=(username, password))",
+    "question_id": 8519922,
+    "snippet": "Send a post request with raw data `DATA` and basic authentication with `username` and `password`"
+  },
+  {
+    "intent": "'abcd}def}'.rfind('}')",
+    "rewritten_intent": "'abcd}def}'.rfind('}')",
+    "question_id": 26443308,
+    "snippet": "Find last occurrence of character '}' in string \"abcd}def}\""
+  },
+  {
+    "intent": "print([item for item in [1, 2, 3]])",
+    "rewritten_intent": "print([item for item in [1, 2, 3]])",
+    "question_id": 22365172,
+    "snippet": "Iterate ove list `[1, 2, 3]` using list comprehension"
+  },
+  {
+    "intent": "[(x['x'], x['y']) for x in d]",
+    "rewritten_intent": "[(x['x'], x['y']) for x in d]",
+    "question_id": 12300912,
+    "snippet": "extract all the values with keys 'x' and 'y' from a list of dictionaries `d` to list of tuples"
+  },
+  {
+    "intent": "print(os.path.splitext(os.path.basename('hemanth.txt'))[0])",
+    "rewritten_intent": "print(os.path.splitext(os.path.basename('hemanth.txt'))[0])",
+    "question_id": 678236,
+    "snippet": "get the filename without the extension from file 'hemanth.txt'"
+  },
+  {
+    "intent": "dict(x[i:i + 2] for i in range(0, len(x), 2))",
+    "rewritten_intent": "dict(x[i:i + 2] for i in range(0, len(x), 2))",
+    "question_id": 2597166,
+    "snippet": "create a dictionary by adding each two adjacent elements in tuple `x` as key/value pair to it"
+  },
+  {
+    "intent": "values = sum([['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']], [])",
+    "rewritten_intent": "values = sum([['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']], [])",
+    "question_id": 7895449,
+    "snippet": "create a list containing flattened list `[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']]`"
+  },
+  {
+    "intent": "df = df[(df['closing_price'] >= 99) & (df['closing_price'] <= 101)]",
+    "rewritten_intent": "df = df[(df['closing_price'] >= 99) & (df['closing_price'] <= 101)]",
+    "question_id": 31617845,
+    "snippet": "select rows in a dataframe `df` column 'closing_price' between two values 99 and 101"
+  },
+  {
+    "intent": "df.replace({'\\n': '<br>'}, regex=True)",
+    "rewritten_intent": "df.replace({'\\n': '<br>'}, regex=True)",
+    "question_id": 25698710,
+    "snippet": "replace all occurences of newlines `\\n` with `<br>` in dataframe `df`"
+  },
+  {
+    "intent": "df.replace({'\\n': '<br>'}, regex=True)",
+    "rewritten_intent": "df.replace({'\\n': '<br>'}, regex=True)",
+    "question_id": 25698710,
+    "snippet": "replace all occurrences of a string `\\n` by string `<br>` in a pandas data frame `df`"
+  },
+  {
+    "intent": "[(x + y) for x, y in zip(word, word[1:])]",
+    "rewritten_intent": "[(x + y) for x, y in zip(word, word[1:])]",
+    "question_id": 41923858,
+    "snippet": "create a list containing each two adjacent letters in string `word` as its elements"
+  },
+  {
+    "intent": "list(map(lambda x, y: x + y, word[:-1], word[1:]))",
+    "rewritten_intent": "list(map(lambda x, y: x + y, word[:-1], word[1:]))",
+    "question_id": 41923858,
+    "snippet": "Get a list of pairs from a string `word` using lambda function"
+  },
+  {
+    "intent": "print(re.findall('(https?://[^\\\\s]+)', myString))",
+    "rewritten_intent": "print(re.findall('(https?://[^\\\\s]+)', myString))",
+    "question_id": 9760588,
+    "snippet": "extract a url from a string `myString`"
+  },
+  {
+    "intent": "print(re.search('(?P<url>https?://[^\\\\s]+)', myString).group('url'))",
+    "rewritten_intent": "print(re.search('(?P<url>https?://[^\\\\s]+)', myString).group('url'))",
+    "question_id": 9760588,
+    "snippet": "extract a url from a string `myString`"
+  },
+  {
+    "intent": "re.sub('[^A-Za-z0-9]+', '', mystring)",
+    "rewritten_intent": "re.sub('[^A-Za-z0-9]+', '', mystring)",
+    "question_id": 5843518,
+    "snippet": "remove all special characters, punctuation and spaces from a string `mystring` using regex"
+  },
+  {
+    "intent": "pd.date_range('2016-01-01', freq='WOM-2FRI', periods=13)",
+    "rewritten_intent": "pd.date_range('2016-01-01', freq='WOM-2FRI', periods=13)",
+    "question_id": 36674519,
+    "snippet": "create a DatetimeIndex containing 13 periods of the second friday of each month starting from date '2016-01-01'"
+  },
+  {
+    "intent": "matrix = [[a, b], [c, d], [e, f]]",
+    "rewritten_intent": "matrix = [[a, b], [c, d], [e, f]]",
+    "question_id": 508657,
+    "snippet": "Create multidimensional array `matrix` with 3 rows and 2 columns in python"
+  },
+  {
+    "intent": "mystring.replace(' ', '_')",
+    "rewritten_intent": "mystring.replace(' ', '_')",
+    "question_id": 1007481,
+    "snippet": "replace spaces with underscore"
+  },
+  {
+    "intent": "os.path.abspath('mydir/myfile.txt')",
+    "rewritten_intent": "os.path.abspath('mydir/myfile.txt')",
+    "question_id": 51520,
+    "snippet": "get an absolute file path of file 'mydir/myfile.txt'"
+  },
+  {
+    "intent": "\"\"\" \"\"\".join(my_string.split())",
+    "rewritten_intent": "\"\"\" \"\"\".join(my_string.split())",
+    "question_id": 1249786,
+    "snippet": "split string `my_string` on white spaces"
+  },
+  {
+    "intent": "os.path.splitext(filename)[0]",
+    "rewritten_intent": "os.path.splitext(filename)[0]",
+    "question_id": 4444923,
+    "snippet": "get filename without extension from file `filename`"
+  },
+  {
+    "intent": "[sum(l[:i]) for i, _ in enumerate(l)]",
+    "rewritten_intent": "[sum(l[:i]) for i, _ in enumerate(l)]",
+    "question_id": 13728486,
+    "snippet": "get a list containing the sum of each element `i` in list `l` plus the previous elements"
+  },
+  {
+    "intent": "\"\"\"Docs/src/Scripts/temp\"\"\".replace('/', '/\\x00/').split('\\x00')",
+    "rewritten_intent": "\"\"\"Docs/src/Scripts/temp\"\"\".replace('/', '/\\x00/').split('\\x00')",
+    "question_id": 9743134,
+    "snippet": "split a string `Docs/src/Scripts/temp` by `/` keeping `/` in the result"
+  },
+  {
+    "intent": "np.random.shuffle(np.transpose(r))",
+    "rewritten_intent": "np.random.shuffle(np.transpose(r))",
+    "question_id": 20546419,
+    "snippet": "shuffle columns of an numpy array 'r'"
+  },
+  {
+    "intent": "df['D'] = df['B']",
+    "rewritten_intent": "df['D'] = df['B']",
+    "question_id": 32675861,
+    "snippet": "copy all values in a column 'B' to a new column 'D' in a pandas data frame 'df'"
+  },
+  {
+    "intent": "list(data['A']['B'].values())[0]['maindata'][0]['Info']",
+    "rewritten_intent": "list(data['A']['B'].values())[0]['maindata'][0]['Info']",
+    "question_id": 14227561,
+    "snippet": "find a value within nested json 'data' where the key inside another key 'B' is unknown."
+  },
+  {
+    "intent": "all(predicate(x) for x in string)",
+    "rewritten_intent": "all(predicate(x) for x in string)",
+    "question_id": 14858916,
+    "snippet": "check characters of string `string` are true predication of function `predicate`"
+  },
+  {
+    "intent": "os.statvfs('/').f_files - os.statvfs('/').f_ffree",
+    "rewritten_intent": "os.statvfs('/').f_files - os.statvfs('/').f_ffree",
+    "question_id": 574236,
+    "snippet": "determine number of files on a drive with python"
+  },
+  {
+    "intent": "cursor.fetchone()[0]",
+    "rewritten_intent": "cursor.fetchone()[0]",
+    "question_id": 7011291,
+    "snippet": "how to get a single result from a SQLite query in python?"
+  },
+  {
+    "intent": "user_list = [int(number) for number in user_input.split(',')]",
+    "rewritten_intent": "user_list = [int(number) for number in user_input.split(',')]",
+    "question_id": 6378889,
+    "snippet": "convert string `user_input` into a list of integers `user_list`"
+  },
+  {
+    "intent": "[int(s) for s in user.split(',')]",
+    "rewritten_intent": "[int(s) for s in user.split(',')]",
+    "question_id": 6378889,
+    "snippet": "Get a list of integers by splitting  a string `user` with comma"
+  },
+  {
+    "intent": "sorted(list, key=lambda x: (x[0], -x[1]))",
+    "rewritten_intent": "sorted(list, key=lambda x: (x[0], -x[1]))",
+    "question_id": 5212870,
+    "snippet": "Sorting a Python list by two criteria"
+  },
+  {
+    "intent": "ut.sort(key=cmpfun, reverse=True)",
+    "rewritten_intent": "ut.sort(key=cmpfun, reverse=True)",
+    "question_id": 403421,
+    "snippet": "sort a list of objects `ut`, based on a function `cmpfun` in descending order"
+  },
+  {
+    "intent": "ut.sort(key=lambda x: x.count, reverse=True)",
+    "rewritten_intent": "ut.sort(key=lambda x: x.count, reverse=True)",
+    "question_id": 403421,
+    "snippet": "reverse list `ut` based on the `count` attribute of each object"
+  },
+  {
+    "intent": "ut.sort(key=lambda x: x.count, reverse=True)",
+    "rewritten_intent": "ut.sort(key=lambda x: x.count, reverse=True)",
+    "question_id": 403421,
+    "snippet": "sort a list of objects `ut` in reverse order by their `count` property"
+  },
+  {
+    "intent": "driver.find_element_by_partial_link_text('Send').click()",
+    "rewritten_intent": "driver.find_element_by_partial_link_text('Send').click()",
+    "question_id": 19601086,
+    "snippet": "click a href button 'Send' with selenium"
+  },
+  {
+    "intent": "driver.findElement(By.linkText('Send InMail')).click()",
+    "rewritten_intent": "driver.findElement(By.linkText('Send InMail')).click()",
+    "question_id": 19601086,
+    "snippet": "click a href button having text `Send InMail` with selenium"
+  },
+  {
+    "intent": "driver.find_element_by_link_text('Send InMail').click()",
+    "rewritten_intent": "driver.find_element_by_link_text('Send InMail').click()",
+    "question_id": 19601086,
+    "snippet": "click a href button with text 'Send InMail' with selenium"
+  },
+  {
+    "intent": "'ME' + str(i)",
+    "rewritten_intent": "'ME' + str(i)",
+    "question_id": 3944876,
+    "snippet": "cast an int `i` to a string and concat to string 'ME'"
+  },
+  {
+    "intent": "df.sort_values(['System_num', 'Dis'])",
+    "rewritten_intent": "df.sort_values(['System_num', 'Dis'])",
+    "question_id": 40903174,
+    "snippet": "Sorting data in DataFrame Pandas"
+  },
+  {
+    "intent": "open('outfile', 'w').write('#test firstline\\n' + open('infile').read())",
+    "rewritten_intent": "open('outfile', 'w').write('#test firstline\\n' + open('infile').read())",
+    "question_id": 4454298,
+    "snippet": "prepend the line '#test firstline\\n' to the contents of file 'infile' and save as the file 'outfile'"
+  },
+  {
+    "intent": "l.sort(key=lambda t: len(t[1]), reverse=True)",
+    "rewritten_intent": "l.sort(key=lambda t: len(t[1]), reverse=True)",
+    "question_id": 19729928,
+    "snippet": "sort a list `l` by length of value in tuple"
+  },
+  {
+    "intent": "re.findall('\\\\b(\\\\w+)d\\\\b', s)",
+    "rewritten_intent": "re.findall('\\\\b(\\\\w+)d\\\\b', s)",
+    "question_id": 31371879,
+    "snippet": "split string `s` by words that ends with 'd'"
+  },
+  {
+    "intent": "bool(re.search('ba[rzd]', 'foobarrrr'))",
+    "rewritten_intent": "bool(re.search('ba[rzd]', 'foobarrrr'))",
+    "question_id": 9012008,
+    "snippet": "return `True` if string `foobarrrr` contains regex `ba[rzd]`"
+  },
+  {
+    "intent": "list(set(t))",
+    "rewritten_intent": "list(set(t))",
+    "question_id": 7961363,
+    "snippet": "Removing duplicates in list `t`"
+  },
+  {
+    "intent": "list(set(source_list))",
+    "rewritten_intent": "list(set(source_list))",
+    "question_id": 7961363,
+    "snippet": "Removing duplicates in list `source_list`"
+  },
+  {
+    "intent": "list(OrderedDict.fromkeys('abracadabra'))",
+    "rewritten_intent": "list(OrderedDict.fromkeys('abracadabra'))",
+    "question_id": 7961363,
+    "snippet": "Removing duplicates in list `abracadabra`"
+  },
+  {
+    "intent": "numpy.array(a).reshape(-1).tolist()",
+    "rewritten_intent": "numpy.array(a).reshape(-1).tolist()",
+    "question_id": 5183533,
+    "snippet": "Convert array `a` into a list"
+  },
+  {
+    "intent": "numpy.array(a)[0].tolist()",
+    "rewritten_intent": "numpy.array(a)[0].tolist()",
+    "question_id": 5183533,
+    "snippet": "Convert the first row of numpy matrix `a` to a list"
+  },
+  {
+    "intent": "print(soup.find(text='Address:').findNext('td').contents[0])",
+    "rewritten_intent": "print(soup.find(text='Address:').findNext('td').contents[0])",
+    "question_id": 5999747,
+    "snippet": "In `soup`, get the content of the sibling of the `td`  tag with text content `Address:`"
+  },
+  {
+    "intent": "\"\"\" \"\"\".join([('%d@%d' % t) for t in l])",
+    "rewritten_intent": "\"\"\" \"\"\".join([('%d@%d' % t) for t in l])",
+    "question_id": 4284648,
+    "snippet": "convert elements of each tuple in list `l` into a string  separated by character `@`"
+  },
+  {
+    "intent": "\"\"\" \"\"\".join([('%d@%d' % (t[0], t[1])) for t in l])",
+    "rewritten_intent": "\"\"\" \"\"\".join([('%d@%d' % (t[0], t[1])) for t in l])",
+    "question_id": 4284648,
+    "snippet": "convert each tuple in list `l` to a string with '@' separating the tuples' elements"
+  },
+  {
+    "intent": "driver.execute_script('return document.documentElement.outerHTML;')",
+    "rewritten_intent": "driver.execute_script('return document.documentElement.outerHTML;')",
+    "question_id": 26809954,
+    "snippet": "get the html from the current web page of a Selenium driver"
+  },
+  {
+    "intent": "[i for i in teststr if re.search('\\\\d+[xX]', i)]",
+    "rewritten_intent": "[i for i in teststr if re.search('\\\\d+[xX]', i)]",
+    "question_id": 29696641,
+    "snippet": "Get all matches with regex pattern `\\\\d+[xX]` in list of string `teststr`"
+  },
+  {
+    "intent": "df['A'][(df['B'] > 50) & (df['C'] == 900)]",
+    "rewritten_intent": "df['A'][(df['B'] > 50) & (df['C'] == 900)]",
+    "question_id": 15315452,
+    "snippet": "select values from column 'A' for which corresponding values in column 'B' will be greater than 50, and in column 'C' - equal 900 in dataframe `df`"
+  },
+  {
+    "intent": "sorted(o.items())",
+    "rewritten_intent": "sorted(o.items())",
+    "question_id": 4642501,
+    "snippet": "Sort dictionary `o` in ascending order based on its keys and items"
+  },
+  {
+    "intent": "sorted(d)",
+    "rewritten_intent": "sorted(d)",
+    "question_id": 4642501,
+    "snippet": "get sorted list of keys of dict `d`"
+  },
+  {
+    "intent": "sorted(d.items())",
+    "rewritten_intent": "sorted(d.items())",
+    "question_id": 4642501,
+    "snippet": "How to sort dictionaries by keys in Python"
+  },
+  {
+    "intent": "int('1')",
+    "rewritten_intent": "int('1')",
+    "question_id": 642154,
+    "snippet": "convert string \"1\" into integer"
+  },
+  {
+    "intent": "int()",
+    "rewritten_intent": "int()",
+    "question_id": 642154,
+    "snippet": "function to convert strings into integers"
+  },
+  {
+    "intent": "T2 = [map(int, x) for x in T1]",
+    "rewritten_intent": "T2 = [map(int, x) for x in T1]",
+    "question_id": 642154,
+    "snippet": "convert items in `T1` to integers"
+  },
+  {
+    "intent": "subprocess.call(['./test.sh'])",
+    "rewritten_intent": "subprocess.call(['./test.sh'])",
+    "question_id": 3777301,
+    "snippet": "call a shell script `./test.sh` using subprocess"
+  },
+  {
+    "intent": "subprocess.call(['notepad'])",
+    "rewritten_intent": "subprocess.call(['notepad'])",
+    "question_id": 3777301,
+    "snippet": "call a shell script `notepad` using subprocess"
+  },
+  {
+    "intent": "[val for pair in zip(l1, l2) for val in pair]",
+    "rewritten_intent": "[val for pair in zip(l1, l2) for val in pair]",
+    "question_id": 7946798,
+    "snippet": "combine lists `l1` and `l2`  by alternating their elements"
+  },
+  {
+    "intent": "encoded = base64.b64encode('data to be encoded')",
+    "rewritten_intent": "encoded = base64.b64encode('data to be encoded')",
+    "question_id": 8908287,
+    "snippet": "encode string 'data to be encoded'"
+  },
+  {
+    "intent": "encoded = 'data to be encoded'.encode('ascii')",
+    "rewritten_intent": "encoded = 'data to be encoded'.encode('ascii')",
+    "question_id": 8908287,
+    "snippet": "encode a string `data to be encoded` to `ascii` encoding"
+  },
+  {
+    "intent": "lol = list(csv.reader(open('text.txt', 'rb'), delimiter='\\t'))",
+    "rewritten_intent": "lol = list(csv.reader(open('text.txt', 'rb'), delimiter='\\t'))",
+    "question_id": 7856296,
+    "snippet": "parse tab-delimited CSV file 'text.txt' into a list"
+  },
+  {
+    "intent": "getattr(my_object, my_str)",
+    "rewritten_intent": "getattr(my_object, my_str)",
+    "question_id": 9035479,
+    "snippet": "Get attribute `my_str` of object `my_object`"
+  },
+  {
+    "intent": "print(dict(zip(LD[0], zip(*[list(d.values()) for d in LD]))))",
+    "rewritten_intent": "print(dict(zip(LD[0], zip(*[list(d.values()) for d in LD]))))",
+    "question_id": 5558418,
+    "snippet": "group a list of dicts `LD` into one dict by key"
+  },
+  {
+    "intent": "sum([pair[0] for pair in list_of_pairs])",
+    "rewritten_intent": "sum([pair[0] for pair in list_of_pairs])",
+    "question_id": 638048,
+    "snippet": "How do I sum the first value in each tuple in a list of tuples in Python?"
+  },
+  {
+    "intent": "d = ast.literal_eval(\"{'code1':1,'code2':1}\")",
+    "rewritten_intent": "d = ast.literal_eval(\"{'code1':1,'code2':1}\")",
+    "question_id": 14950260,
+    "snippet": "convert unicode string u\"{'code1':1,'code2':1}\" into dictionary"
+  },
+  {
+    "intent": "[word for word in mystring.split() if word.startswith('$')]",
+    "rewritten_intent": "[word for word in mystring.split() if word.startswith('$')]",
+    "question_id": 11416772,
+    "snippet": "find all words in a string `mystring` that start with the `$` sign"
+  },
+  {
+    "intent": "text = re.sub('^https?:\\\\/\\\\/.*[\\\\r\\\\n]*', '', text, flags=re.MULTILINE)",
+    "rewritten_intent": "text = re.sub('^https?:\\\\/\\\\/.*[\\\\r\\\\n]*', '', text, flags=re.MULTILINE)",
+    "question_id": 11331982,
+    "snippet": "remove any url within string `text`"
+  },
+  {
+    "intent": "np.where(np.in1d(A, [1, 3, 4]).reshape(A.shape), A, 0)",
+    "rewritten_intent": "np.where(np.in1d(A, [1, 3, 4]).reshape(A.shape), A, 0)",
+    "question_id": 34945274,
+    "snippet": "replace all elements in array `A` that are not present in array `[1, 3, 4]` with zeros"
+  },
+  {
+    "intent": "np.mean(a, axis=1)",
+    "rewritten_intent": "np.mean(a, axis=1)",
+    "question_id": 15819980,
+    "snippet": "calculate mean across dimension in a 2d array `a`"
+  },
+  {
+    "intent": "subprocess.call(['/usr/bin/Rscript', '--vanilla', '/pathto/MyrScript.r'])",
+    "rewritten_intent": "subprocess.call(['/usr/bin/Rscript', '--vanilla', '/pathto/MyrScript.r'])",
+    "question_id": 19894365,
+    "snippet": "running r script '/pathto/MyrScript.r' from python"
+  },
+  {
+    "intent": "subprocess.call('/usr/bin/Rscript --vanilla /pathto/MyrScript.r', shell=True)",
+    "rewritten_intent": "subprocess.call('/usr/bin/Rscript --vanilla /pathto/MyrScript.r', shell=True)",
+    "question_id": 19894365,
+    "snippet": "run r script '/usr/bin/Rscript --vanilla /pathto/MyrScript.r'"
+  },
+  {
+    "intent": "writer.writeheader()",
+    "rewritten_intent": "writer.writeheader()",
+    "question_id": 15907200,
+    "snippet": "add a header to a csv file"
+  },
+  {
+    "intent": "df.fillna(df.mean(axis=1), axis=1)",
+    "rewritten_intent": "df.fillna(df.mean(axis=1), axis=1)",
+    "question_id": 33058590,
+    "snippet": "replacing nan in the dataframe `df` with row average"
+  },
+  {
+    "intent": "time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(1347517370))",
+    "rewritten_intent": "time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(1347517370))",
+    "question_id": 12400256,
+    "snippet": "Convert unix timestamp '1347517370' to formatted string '%Y-%m-%d %H:%M:%S'"
+  },
+  {
+    "intent": "super(Derived, cls).do(a)",
+    "rewritten_intent": "super(Derived, cls).do(a)",
+    "question_id": 1269217,
+    "snippet": "Call a base class's class method `do` from derived class `Derived`"
+  },
+  {
+    "intent": "a[np.where((a[:, (0)] == 0) * (a[:, (1)] == 1))]",
+    "rewritten_intent": "a[np.where((a[:, (0)] == 0) * (a[:, (1)] == 1))]",
+    "question_id": 23359886,
+    "snippet": "selecting rows in Numpy ndarray 'a', where the value in the first column is 0 and value in the second column is 1"
+  },
+  {
+    "intent": "re.split(' +', 'hello world sample text')",
+    "rewritten_intent": "re.split(' +', 'hello world sample text')",
+    "question_id": 4383082,
+    "snippet": "separate words delimited by one or more spaces into a list"
+  },
+  {
+    "intent": "len(max(words, key=len))",
+    "rewritten_intent": "len(max(words, key=len))",
+    "question_id": 14637696,
+    "snippet": "length of longest element in list `words`"
+  },
+  {
+    "intent": "result[0]['from_user']",
+    "rewritten_intent": "result[0]['from_user']",
+    "question_id": 3933478,
+    "snippet": "get the value associated with unicode key 'from_user' of first dictionary in list `result`"
+  },
+  {
+    "intent": "[line.split() for line in open('File.txt')]",
+    "rewritten_intent": "[line.split() for line in open('File.txt')]",
+    "question_id": 39112645,
+    "snippet": "Retrieve each line from a file 'File.txt' as a list"
+  },
+  {
+    "intent": "res = dict((v, k) for k, v in a.items())",
+    "rewritten_intent": "res = dict((v, k) for k, v in a.items())",
+    "question_id": 1031851,
+    "snippet": "swap keys with values in a dictionary `a`"
+  },
+  {
+    "intent": "new_file = open('path/to/FILE_NAME.ext', 'w')",
+    "rewritten_intent": "new_file = open('path/to/FILE_NAME.ext', 'w')",
+    "question_id": 8577137,
+    "snippet": "Open a file `path/to/FILE_NAME.ext` in write mode"
+  },
+  {
+    "intent": "df.groupby(['col1', 'col2'])['col3'].nunique().reset_index()",
+    "rewritten_intent": "df.groupby(['col1', 'col2'])['col3'].nunique().reset_index()",
+    "question_id": 17926273,
+    "snippet": "How to count distinct values in a column of a pandas group by object?"
+  },
+  {
+    "intent": "any(key.startswith('EMP$$') for key in dict1)",
+    "rewritten_intent": "any(key.startswith('EMP$$') for key in dict1)",
+    "question_id": 3735814,
+    "snippet": "Check if any key in the dictionary `dict1` starts with the string `EMP$$`"
+  },
+  {
+    "intent": "[value for key, value in list(dict1.items()) if key.startswith('EMP$$')]",
+    "rewritten_intent": "[value for key, value in list(dict1.items()) if key.startswith('EMP$$')]",
+    "question_id": 3735814,
+    "snippet": "create list of values from dictionary `dict1` that have a key that starts with 'EMP$$'"
+  },
+  {
+    "intent": "pd.DataFrame({'email': sf.index, 'list': sf.values})",
+    "rewritten_intent": "pd.DataFrame({'email': sf.index, 'list': sf.values})",
+    "question_id": 26097916,
+    "snippet": "convert a pandas series `sf` into a pandas dataframe `df` with columns `email` and `list`"
+  },
+  {
+    "intent": "print('\\t'.join(map(str, list)))",
+    "rewritten_intent": "print('\\t'.join(map(str, list)))",
+    "question_id": 4048964,
+    "snippet": "print elements of list `list` seperated by tabs `\\t`"
+  },
+  {
+    "intent": "print('\\xd0\\xbf\\xd1\\x80\\xd0\\xb8'.encode('raw_unicode_escape'))",
+    "rewritten_intent": "print('\\xd0\\xbf\\xd1\\x80\\xd0\\xb8'.encode('raw_unicode_escape'))",
+    "question_id": 3182716,
+    "snippet": "print unicode string '\\xd0\\xbf\\xd1\\x80\\xd0\\xb8' with utf-8"
+  },
+  {
+    "intent": "'Sopet\\xc3\\xb3n'.encode('latin-1').decode('utf-8')",
+    "rewritten_intent": "'Sopet\\xc3\\xb3n'.encode('latin-1').decode('utf-8')",
+    "question_id": 3182716,
+    "snippet": "Encode a latin character in string `Sopet\\xc3\\xb3n` properly"
+  },
+  {
+    "intent": "image = image.resize((x, y), Image.ANTIALIAS)",
+    "rewritten_intent": "image = image.resize((x, y), Image.ANTIALIAS)",
+    "question_id": 1405602,
+    "snippet": "resized image `image` to width, height of `(x, y)` with filter of `ANTIALIAS`"
+  },
+  {
+    "intent": "re.findall('n(?<=[^n]n)n+(?=[^n])(?i)', s)",
+    "rewritten_intent": "re.findall('n(?<=[^n]n)n+(?=[^n])(?i)', s)",
+    "question_id": 35622945,
+    "snippet": "regex, find \"n\"s only in the middle of string `s`"
+  },
+  {
+    "intent": "print('{0:.0f}%'.format(1.0 / 3 * 100))",
+    "rewritten_intent": "print('{0:.0f}%'.format(1.0 / 3 * 100))",
+    "question_id": 5306756,
+    "snippet": "display the float `1/3*100` as a percentage"
+  },
+  {
+    "intent": "mylist.sort(key=lambda x: x['title'])",
+    "rewritten_intent": "mylist.sort(key=lambda x: x['title'])",
+    "question_id": 2878084,
+    "snippet": "sort a list of dictionary `mylist` by the key `title`"
+  },
+  {
+    "intent": "l.sort(key=lambda x: x['title'])",
+    "rewritten_intent": "l.sort(key=lambda x: x['title'])",
+    "question_id": 2878084,
+    "snippet": "sort a list `l` of dicts by dict value 'title'"
+  },
+  {
+    "intent": "l.sort(key=lambda x: (x['title'], x['title_url'], x['id']))",
+    "rewritten_intent": "l.sort(key=lambda x: (x['title'], x['title_url'], x['id']))",
+    "question_id": 2878084,
+    "snippet": "sort a list of dictionaries by the value of keys 'title', 'title_url', 'id' in ascending order."
+  },
+  {
+    "intent": "heapq.nlargest(10, range(len(l1)), key=lambda i: abs(l1[i] - l2[i]))",
+    "rewritten_intent": "heapq.nlargest(10, range(len(l1)), key=lambda i: abs(l1[i] - l2[i]))",
+    "question_id": 9323159,
+    "snippet": "find 10 largest differences between each respective elements of list `l1` and list `l2`"
+  },
+  {
+    "intent": "soup.find_all('span', {'class': 'starGryB sp'})",
+    "rewritten_intent": "soup.find_all('span', {'class': 'starGryB sp'})",
+    "question_id": 29877663,
+    "snippet": "BeautifulSoup find all 'span' elements in HTML string `soup` with class of 'starGryB sp'"
+  },
+  {
+    "intent": "df.to_sql('test', engine, schema='a_schema')",
+    "rewritten_intent": "df.to_sql('test', engine, schema='a_schema')",
+    "question_id": 24189150,
+    "snippet": "write records in dataframe `df` to table 'test' in schema 'a_schema'"
+  },
+  {
+    "intent": "brackets = re.sub('[^(){}[\\\\]]', '', s)",
+    "rewritten_intent": "brackets = re.sub('[^(){}[\\\\]]', '', s)",
+    "question_id": 30766151,
+    "snippet": "Extract brackets from string `s`"
+  },
+  {
+    "intent": "list(dict((x[0], x) for x in L).values())",
+    "rewritten_intent": "list(dict((x[0], x) for x in L).values())",
+    "question_id": 1143379,
+    "snippet": "remove duplicate elements from list 'L'"
+  },
+  {
+    "intent": "[line.rstrip('\\n') for line in file]",
+    "rewritten_intent": "[line.rstrip('\\n') for line in file]",
+    "question_id": 12330522,
+    "snippet": "read a file `file` without newlines"
+  },
+  {
+    "intent": "[i for (i, x) in enumerate(testlist) if (x == 1)]",
+    "rewritten_intent": "[i for (i, x) in enumerate(testlist) if (x == 1)]",
+    "question_id": 364621,
+    "snippet": "get the position of item 1 in `testlist`"
+  },
+  {
+    "intent": "[i for (i, x) in enumerate(testlist) if (x == 1)]",
+    "rewritten_intent": "[i for (i, x) in enumerate(testlist) if (x == 1)]",
+    "question_id": 364621,
+    "snippet": "get the position of item 1 in `testlist`"
+  },
+  {
+    "intent": "for i in [i for (i, x) in enumerate(testlist) if (x == 1)]:\n    pass",
+    "rewritten_intent": "for i in [i for (i, x) in enumerate(testlist) if (x == 1)]:\n    pass",
+    "question_id": 364621,
+    "snippet": "get the position of item 1 in `testlist`"
+  },
+  {
+    "intent": "for i in (i for (i, x) in enumerate(testlist) if (x == 1)):\n    pass",
+    "rewritten_intent": "for i in (i for (i, x) in enumerate(testlist) if (x == 1)):\n    pass",
+    "question_id": 364621,
+    "snippet": "get the position of item 1 in `testlist`"
+  },
+  {
+    "intent": "gen = (i for (i, x) in enumerate(testlist) if (x == 1))\nfor i in gen:\n    pass",
+    "rewritten_intent": "gen = (i for (i, x) in enumerate(testlist) if (x == 1))\nfor i in gen:\n    pass",
+    "question_id": 364621,
+    "snippet": "get the position of item 1 in `testlist`"
+  },
+  {
+    "intent": "print(testlist.index(element))",
+    "rewritten_intent": "print(testlist.index(element))",
+    "question_id": 364621,
+    "snippet": "get the position of item `element` in list `testlist`"
+  },
+  {
+    "intent": "try:\n    print(testlist.index(element))\nexcept ValueError:\n    pass",
+    "rewritten_intent": "try:\n    print(testlist.index(element))\nexcept ValueError:\n    pass",
+    "question_id": 364621,
+    "snippet": "get the position of item `element` in list `testlist`"
+  },
+  {
+    "intent": "max(lis, key=lambda item: item[1])[0]",
+    "rewritten_intent": "max(lis, key=lambda item: item[1])[0]",
+    "question_id": 13145368,
+    "snippet": "find the first element of the tuple with the maximum second element in a list of tuples `lis`"
+  },
+  {
+    "intent": "max(lis, key=itemgetter(1))[0]",
+    "rewritten_intent": "max(lis, key=itemgetter(1))[0]",
+    "question_id": 13145368,
+    "snippet": "get the item at index 0 from the tuple that has maximum value at index 1 in list `lis`"
+  },
+  {
+    "intent": "time.sleep(1)",
+    "rewritten_intent": "time.sleep(1)",
+    "question_id": 2689189,
+    "snippet": "Make a delay of 1 second"
+  },
+  {
+    "intent": "\"\"\", \"\"\".join('(' + ', '.join(i) + ')' for i in L)",
+    "rewritten_intent": "\"\"\", \"\"\".join('(' + ', '.join(i) + ')' for i in L)",
+    "question_id": 12485244,
+    "snippet": "convert list of tuples `L` to a string"
+  },
+  {
+    "intent": "b = models.CharField(max_length=7, default='0000000', editable=False)",
+    "rewritten_intent": "b = models.CharField(max_length=7, default='0000000', editable=False)",
+    "question_id": 755857,
+    "snippet": "Django set default value of field `b` equal to '0000000'"
+  },
+  {
+    "intent": "sorted(list5, lambda x: (degree(x), x))",
+    "rewritten_intent": "sorted(list5, lambda x: (degree(x), x))",
+    "question_id": 16193578,
+    "snippet": "Sort lis `list5` in ascending order based on the degrees value of its elements"
+  },
+  {
+    "intent": "sorted(list5, key=lambda vertex: (degree(vertex), vertex))",
+    "rewritten_intent": "sorted(list5, key=lambda vertex: (degree(vertex), vertex))",
+    "question_id": 16193578,
+    "snippet": "How do I perform secondary sorting in python?"
+  },
+  {
+    "intent": "(n for n in [1, 2, 3, 5])",
+    "rewritten_intent": "(n for n in [1, 2, 3, 5])",
+    "question_id": 16041405,
+    "snippet": "convert a list  into a generator object"
+  },
+  {
+    "intent": "newlist = [v for i, v in enumerate(oldlist) if i not in removelist]",
+    "rewritten_intent": "newlist = [v for i, v in enumerate(oldlist) if i not in removelist]",
+    "question_id": 18837607,
+    "snippet": "remove elements from list `oldlist` that have an index number mentioned in list `removelist`"
+  },
+  {
+    "intent": "f = open('yourfile.txt', 'w')",
+    "rewritten_intent": "f = open('yourfile.txt', 'w')",
+    "question_id": 4710067,
+    "snippet": "Open a file `yourfile.txt` in write mode"
+  },
+  {
+    "intent": "getattr(obj, 'attr')",
+    "rewritten_intent": "getattr(obj, 'attr')",
+    "question_id": 7373219,
+    "snippet": "get attribute 'attr' from object `obj`"
+  },
+  {
+    "intent": "from functools import reduce\nreduce(lambda a, b: a + b, (('aa',), ('bb',), ('cc',)))",
+    "rewritten_intent": "from functools import reduce\nreduce(lambda a, b: a + b, (('aa',), ('bb',), ('cc',)))",
+    "question_id": 8171751,
+    "snippet": "convert tuple of tuples `(('aa',), ('bb',), ('cc',))` to tuple"
+  },
+  {
+    "intent": "map(lambda a: a[0], (('aa',), ('bb',), ('cc',)))",
+    "rewritten_intent": "map(lambda a: a[0], (('aa',), ('bb',), ('cc',)))",
+    "question_id": 8171751,
+    "snippet": "convert tuple of tuples `(('aa',), ('bb',), ('cc',))` to list in one line"
+  },
+  {
+    "intent": "df['range'].replace(',', '-', inplace=True)",
+    "rewritten_intent": "df['range'].replace(',', '-', inplace=True)",
+    "question_id": 28986489,
+    "snippet": "Python Pandas: How to replace a characters in a column of a dataframe?"
+  },
+  {
+    "intent": "zip(*[('a', 1), ('b', 2), ('c', 3), ('d', 4)])",
+    "rewritten_intent": "zip(*[('a', 1), ('b', 2), ('c', 3), ('d', 4)])",
+    "question_id": 19339,
+    "snippet": "unzip the list `[('a', 1), ('b', 2), ('c', 3), ('d', 4)]`"
+  },
+  {
+    "intent": "zip(*[('a', 1), ('b', 2), ('c', 3), ('d', 4)])",
+    "rewritten_intent": "zip(*[('a', 1), ('b', 2), ('c', 3), ('d', 4)])",
+    "question_id": 19339,
+    "snippet": "unzip the list `[('a', 1), ('b', 2), ('c', 3), ('d', 4)]`"
+  },
+  {
+    "intent": "result = ([a for (a, b) in original], [b for (a, b) in original])",
+    "rewritten_intent": "result = ([a for (a, b) in original], [b for (a, b) in original])",
+    "question_id": 19339,
+    "snippet": "unzip list `original`"
+  },
+  {
+    "intent": "result = ((a for (a, b) in original), (b for (a, b) in original))",
+    "rewritten_intent": "result = ((a for (a, b) in original), (b for (a, b) in original))",
+    "question_id": 19339,
+    "snippet": "unzip list `original` and return a generator"
+  },
+  {
+    "intent": "zip(*[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e',)])",
+    "rewritten_intent": "zip(*[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e',)])",
+    "question_id": 19339,
+    "snippet": "unzip list `[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', )]`"
+  },
+  {
+    "intent": "map(None, *[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e',)])",
+    "rewritten_intent": "map(None, *[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e',)])",
+    "question_id": 19339,
+    "snippet": "unzip list `[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', )]` and fill empty results with None"
+  },
+  {
+    "intent": "json.dumps(Decimal('3.9'))",
+    "rewritten_intent": "json.dumps(Decimal('3.9'))",
+    "question_id": 1960516,
+    "snippet": "encode `Decimal('3.9')` to a JSON string"
+  },
+  {
+    "intent": "d['mynewkey'] = 'mynewvalue'",
+    "rewritten_intent": "d['mynewkey'] = 'mynewvalue'",
+    "question_id": 1024847,
+    "snippet": "Add key \"mynewkey\" to dictionary `d` with value \"mynewvalue\""
+  },
+  {
+    "intent": "data.update({'a': 1, })",
+    "rewritten_intent": "data.update({'a': 1, })",
+    "question_id": 1024847,
+    "snippet": "Add key 'a' to dictionary `data` with value 1"
+  },
+  {
+    "intent": "data.update(dict(a=1))",
+    "rewritten_intent": "data.update(dict(a=1))",
+    "question_id": 1024847,
+    "snippet": "Add key 'a' to dictionary `data` with value 1"
+  },
+  {
+    "intent": "data.update(a=1)",
+    "rewritten_intent": "data.update(a=1)",
+    "question_id": 1024847,
+    "snippet": "Add key 'a' to dictionary `data` with value 1"
+  },
+  {
+    "intent": "max([max(i) for i in matrix])",
+    "rewritten_intent": "max([max(i) for i in matrix])",
+    "question_id": 35837346,
+    "snippet": "find maximal value in matrix `matrix`"
+  },
+  {
+    "intent": "answer = str(round(answer, 2))",
+    "rewritten_intent": "answer = str(round(answer, 2))",
+    "question_id": 20457038,
+    "snippet": "Round number `answer` to 2 precision after the decimal point"
+  },
+  {
+    "intent": "ip = re.findall('[0-9]+(?:\\\\.[0-9]+){3}', s)",
+    "rewritten_intent": "ip = re.findall('[0-9]+(?:\\\\.[0-9]+){3}', s)",
+    "question_id": 2890896,
+    "snippet": "extract ip address from an html string"
+  },
+  {
+    "intent": "df.groupby('A').filter(lambda x: len(x) > 1)",
+    "rewritten_intent": "df.groupby('A').filter(lambda x: len(x) > 1)",
+    "question_id": 29836836,
+    "snippet": "filter dataframe `df` by values in column `A` that appear more than once"
+  },
+  {
+    "intent": "[x for x in myfile.splitlines() if x != '']",
+    "rewritten_intent": "[x for x in myfile.splitlines() if x != '']",
+    "question_id": 2545397,
+    "snippet": "append each line in file `myfile` into a list"
+  },
+  {
+    "intent": "lst = map(int, open('filename.txt').readlines())",
+    "rewritten_intent": "lst = map(int, open('filename.txt').readlines())",
+    "question_id": 2545397,
+    "snippet": "Get a list of integers `lst` from a file `filename.txt`"
+  },
+  {
+    "intent": "plt.colorbar(mappable=mappable, cax=ax3)",
+    "rewritten_intent": "plt.colorbar(mappable=mappable, cax=ax3)",
+    "question_id": 35420052,
+    "snippet": "add color bar with image `mappable` to plot `plt`"
+  },
+  {
+    "intent": "Counter(' '.join(df['text']).split()).most_common(100)",
+    "rewritten_intent": "Counter(' '.join(df['text']).split()).most_common(100)",
+    "question_id": 29903025,
+    "snippet": "count most frequent 100 words in column 'text' of dataframe `df`"
+  },
+  {
+    "intent": "re.findall('(.+?):(.+?)\\\\b ?', text)",
+    "rewritten_intent": "re.findall('(.+?):(.+?)\\\\b ?', text)",
+    "question_id": 16330838,
+    "snippet": "Python split a string using regex"
+  },
+  {
+    "intent": "list(itertools.combinations((1, 2, 3), 2))",
+    "rewritten_intent": "list(itertools.combinations((1, 2, 3), 2))",
+    "question_id": 7378180,
+    "snippet": "generate all 2-element subsets of tuple `(1, 2, 3)`"
+  },
+  {
+    "intent": "datetime.now(pytz.utc)",
+    "rewritten_intent": "datetime.now(pytz.utc)",
+    "question_id": 4530069,
+    "snippet": "get a value of datetime.today() in the UTC time zone"
+  },
+  {
+    "intent": "list2 = [x for x in list1 if x != []]",
+    "rewritten_intent": "list2 = [x for x in list1 if x != []]",
+    "question_id": 4842956,
+    "snippet": "Get a new list `list2`by removing empty list from a list of lists `list1`"
+  },
+  {
+    "intent": "list2 = [x for x in list1 if x]",
+    "rewritten_intent": "list2 = [x for x in list1 if x]",
+    "question_id": 4842956,
+    "snippet": "Create `list2` to contain the lists from list `list1` excluding the empty lists from `list1`"
+  },
+  {
+    "intent": "return HttpResponse(data, mimetype='application/json')",
+    "rewritten_intent": "return HttpResponse(data, mimetype='application/json')",
+    "question_id": 9262278,
+    "snippet": "Django response with JSON `data`"
+  },
+  {
+    "intent": "re.findall('(.*?)\\\\[.*?\\\\]', example_str)",
+    "rewritten_intent": "re.findall('(.*?)\\\\[.*?\\\\]', example_str)",
+    "question_id": 17284947,
+    "snippet": "get all text that is not enclosed within square brackets in string `example_str`"
+  },
+  {
+    "intent": "re.findall('(.*?)(?:\\\\[.*?\\\\]|$)', example_str)",
+    "rewritten_intent": "re.findall('(.*?)(?:\\\\[.*?\\\\]|$)', example_str)",
+    "question_id": 17284947,
+    "snippet": "Use a regex to get all text in a string `example_str` that is not surrounded by square brackets"
+  },
+  {
+    "intent": "re.findall('\\\\(.+?\\\\)|\\\\w', '(zyx)bc')",
+    "rewritten_intent": "re.findall('\\\\(.+?\\\\)|\\\\w', '(zyx)bc')",
+    "question_id": 14182339,
+    "snippet": "get whatever is between parentheses as a single match, and any char outside as an individual match in string '(zyx)bc'"
+  },
+  {
+    "intent": "re.findall('\\\\((.*?)\\\\)|(\\\\w)', '(zyx)bc')",
+    "rewritten_intent": "re.findall('\\\\((.*?)\\\\)|(\\\\w)', '(zyx)bc')",
+    "question_id": 14182339,
+    "snippet": "match regex '\\\\((.*?)\\\\)|(\\\\w)' with string '(zyx)bc'"
+  },
+  {
+    "intent": "re.findall('\\\\(.*?\\\\)|\\\\w', '(zyx)bc')",
+    "rewritten_intent": "re.findall('\\\\(.*?\\\\)|\\\\w', '(zyx)bc')",
+    "question_id": 14182339,
+    "snippet": "match multiple regex patterns with the alternation operator `|` in a string `(zyx)bc`"
+  },
+  {
+    "intent": "elements = ['%{0}%'.format(element) for element in elements]",
+    "rewritten_intent": "elements = ['%{0}%'.format(element) for element in elements]",
+    "question_id": 7126916,
+    "snippet": "formate each string cin list `elements` into pattern '%{0}%'"
+  },
+  {
+    "intent": "subprocess.Popen(['background-process', 'arguments'])",
+    "rewritten_intent": "subprocess.Popen(['background-process', 'arguments'])",
+    "question_id": 3595685,
+    "snippet": "Open a background process 'background-process' with arguments 'arguments'"
+  },
+  {
+    "intent": "[mydict[x] for x in mykeys]",
+    "rewritten_intent": "[mydict[x] for x in mykeys]",
+    "question_id": 18453566,
+    "snippet": "get list of values from dictionary 'mydict' w.r.t. list of keys 'mykeys'"
+  },
+  {
+    "intent": "dict([('Name', 'Joe'), ('Age', 22)])",
+    "rewritten_intent": "dict([('Name', 'Joe'), ('Age', 22)])",
+    "question_id": 12692135,
+    "snippet": "convert list `[('Name', 'Joe'), ('Age', 22)]` into a dictionary"
+  },
+  {
+    "intent": "data.reshape(-1, j).mean(axis=1).reshape(data.shape[0], -1)",
+    "rewritten_intent": "data.reshape(-1, j).mean(axis=1).reshape(data.shape[0], -1)",
+    "question_id": 14401047,
+    "snippet": "average each two columns of array `data`"
+  },
+  {
+    "intent": "print(s.encode('unicode-escape').replace('\"', '\\\\\"'))",
+    "rewritten_intent": "print(s.encode('unicode-escape').replace('\"', '\\\\\"'))",
+    "question_id": 18886596,
+    "snippet": "double backslash escape all double quotes in string `s`"
+  },
+  {
+    "intent": "re.split('(\\\\W+)', s)",
+    "rewritten_intent": "re.split('(\\\\W+)', s)",
+    "question_id": 5932059,
+    "snippet": "split a string into a list of words and whitespace"
+  },
+  {
+    "intent": "df.plot(kind='barh', stacked=True)",
+    "rewritten_intent": "df.plot(kind='barh', stacked=True)",
+    "question_id": 9938130,
+    "snippet": "plotting stacked barplots on a panda data frame"
+  },
+  {
+    "intent": "{i[1]: i[0] for i in list(myDictionary.items())}",
+    "rewritten_intent": "{i[1]: i[0] for i in list(myDictionary.items())}",
+    "question_id": 35945473,
+    "snippet": "reverse the keys and values in a dictionary `myDictionary`"
+  },
+  {
+    "intent": "[i for i, j in enumerate(myList) if 'how' in j.lower() or 'what' in j.lower()]",
+    "rewritten_intent": "[i for i, j in enumerate(myList) if 'how' in j.lower() or 'what' in j.lower()]",
+    "question_id": 30729735,
+    "snippet": "finding the index of elements containing substring 'how' and 'what' in a list of strings 'myList'."
+  },
+  {
+    "intent": "isinstance(obj, str)",
+    "rewritten_intent": "isinstance(obj, str)",
+    "question_id": 1303243,
+    "snippet": "check if object `obj` is a string"
+  },
+  {
+    "intent": "isinstance(o, str)",
+    "rewritten_intent": "isinstance(o, str)",
+    "question_id": 1303243,
+    "snippet": "check if object `o` is a string"
+  },
+  {
+    "intent": "(type(o) is str)",
+    "rewritten_intent": "(type(o) is str)",
+    "question_id": 1303243,
+    "snippet": "check if object `o` is a string"
+  },
+  {
+    "intent": "isinstance(o, str)",
+    "rewritten_intent": "isinstance(o, str)",
+    "question_id": 1303243,
+    "snippet": "check if object `o` is a string"
+  },
+  {
+    "intent": "isinstance(obj_to_test, str)",
+    "rewritten_intent": "isinstance(obj_to_test, str)",
+    "question_id": 1303243,
+    "snippet": "check if `obj_to_test` is a string"
+  },
+  {
+    "intent": "list2.extend(list1)",
+    "rewritten_intent": "list2.extend(list1)",
+    "question_id": 8177079,
+    "snippet": "append list `list1` to `list2`"
+  },
+  {
+    "intent": "list1.extend(mylog)",
+    "rewritten_intent": "list1.extend(mylog)",
+    "question_id": 8177079,
+    "snippet": "append list `mylog` to `list1`"
+  },
+  {
+    "intent": "c.extend(a)",
+    "rewritten_intent": "c.extend(a)",
+    "question_id": 8177079,
+    "snippet": "append list `a` to `c`"
+  },
+  {
+    "intent": "for line in mylog:\n    list1.append(line)",
+    "rewritten_intent": "for line in mylog:\n    list1.append(line)",
+    "question_id": 8177079,
+    "snippet": "append items in list `mylog` to `list1`"
+  },
+  {
+    "intent": "b.append((a[0][0], a[0][2]))",
+    "rewritten_intent": "b.append((a[0][0], a[0][2]))",
+    "question_id": 4126227,
+    "snippet": "append a tuple of elements from list `a` with indexes '[0][0] [0][2]' to list `b`"
+  },
+  {
+    "intent": "app.config['SECRET_KEY'] = 'Your_secret_string'",
+    "rewritten_intent": "app.config['SECRET_KEY'] = 'Your_secret_string'",
+    "question_id": 34902378,
+    "snippet": "Initialize `SECRET_KEY` in flask config with `Your_secret_string `"
+  },
+  {
+    "intent": "pd.DataFrame(out.tolist(), columns=['out-1', 'out-2'], index=out.index)",
+    "rewritten_intent": "pd.DataFrame(out.tolist(), columns=['out-1', 'out-2'], index=out.index)",
+    "question_id": 22799300,
+    "snippet": "unpack a series of tuples in pandas into a DataFrame with column names 'out-1' and 'out-2'"
+  },
+  {
+    "intent": "[x for x in range(len(stocks_list)) if stocks_list[x] == 'MSFT']",
+    "rewritten_intent": "[x for x in range(len(stocks_list)) if stocks_list[x] == 'MSFT']",
+    "question_id": 1762484,
+    "snippet": "find the index of an element 'MSFT' in a list `stocks_list`"
+  },
+  {
+    "intent": "ax.set_xticklabels(labels, rotation=45)",
+    "rewritten_intent": "ax.set_xticklabels(labels, rotation=45)",
+    "question_id": 3464359,
+    "snippet": "rotate the xtick labels of matplotlib plot `ax` by `45` degrees to make long labels readable"
+  },
+  {
+    "intent": "re.sub('[^\\\\w]', ' ', s)",
+    "rewritten_intent": "re.sub('[^\\\\w]', ' ', s)",
+    "question_id": 875968,
+    "snippet": "remove symbols from a string `s`"
+  },
+  {
+    "intent": "os.path.basename(os.path.dirname(os.path.realpath(__file__)))",
+    "rewritten_intent": "os.path.basename(os.path.dirname(os.path.realpath(__file__)))",
+    "question_id": 31258561,
+    "snippet": "Get the current directory of a script"
+  },
+  {
+    "intent": "print(re.findall(\"'\\\\\\\\[0-7]{1,3}'\", str))",
+    "rewritten_intent": "print(re.findall(\"'\\\\\\\\[0-7]{1,3}'\", str))",
+    "question_id": 34750084,
+    "snippet": "Find octal characters matches from a string `str` using regex"
+  },
+  {
+    "intent": "re.split('[ ](?=[A-Z]+\\\\b)', input)",
+    "rewritten_intent": "re.split('[ ](?=[A-Z]+\\\\b)', input)",
+    "question_id": 13209288,
+    "snippet": "split string `input` based on occurrences of regex pattern '[ ](?=[A-Z]+\\\\b)'"
+  },
+  {
+    "intent": "re.split('[ ](?=[A-Z])', input)",
+    "rewritten_intent": "re.split('[ ](?=[A-Z])', input)",
+    "question_id": 13209288,
+    "snippet": "Split string `input` at every space followed by an upper-case letter"
+  },
+  {
+    "intent": "r = requests.post(url, files=files, headers=headers, data=data)",
+    "rewritten_intent": "r = requests.post(url, files=files, headers=headers, data=data)",
+    "question_id": 24642040,
+    "snippet": "send multipart encoded file `files` to url `url` with headers `headers` and metadata `data`"
+  },
+  {
+    "intent": "open('filename', 'wb').write(bytes_)",
+    "rewritten_intent": "open('filename', 'wb').write(bytes_)",
+    "question_id": 4290716,
+    "snippet": "write bytes `bytes_` to a file `filename` in python 3"
+  },
+  {
+    "intent": "[dct[k] for k in lst]",
+    "rewritten_intent": "[dct[k] for k in lst]",
+    "question_id": 33078554,
+    "snippet": "get a list from a list `lst` with values mapped into a dictionary `dct`"
+  },
+  {
+    "intent": "x.set_index('name').index.get_duplicates()",
+    "rewritten_intent": "x.set_index('name').index.get_duplicates()",
+    "question_id": 15247628,
+    "snippet": "find duplicate names in column 'name' of the dataframe `x`"
+  },
+  {
+    "intent": "round(1.923328437452, 3)",
+    "rewritten_intent": "round(1.923328437452, 3)",
+    "question_id": 783897,
+    "snippet": "truncate float 1.923328437452 to 3 decimal places"
+  },
+  {
+    "intent": "sorted(li, key=lambda x: datetime.strptime(x[1], '%d/%m/%Y'), reverse=True)",
+    "rewritten_intent": "sorted(li, key=lambda x: datetime.strptime(x[1], '%d/%m/%Y'), reverse=True)",
+    "question_id": 22859493,
+    "snippet": "sort list `li` in descending order based on the date value in second element of each list in list `li`"
+  },
+  {
+    "intent": "ax.set_rlabel_position(135)",
+    "rewritten_intent": "ax.set_rlabel_position(135)",
+    "question_id": 29394552,
+    "snippet": "place the radial ticks in plot `ax` at 135 degrees"
+  },
+  {
+    "intent": "os.path.isabs(my_path)",
+    "rewritten_intent": "os.path.isabs(my_path)",
+    "question_id": 3320406,
+    "snippet": "check if path `my_path` is an absolute path"
+  },
+  {
+    "intent": "len(list(yourdict.keys()))",
+    "rewritten_intent": "len(list(yourdict.keys()))",
+    "question_id": 2212433,
+    "snippet": "get number of keys in dictionary `yourdict`"
+  },
+  {
+    "intent": "len(set(open(yourdictfile).read().split()))",
+    "rewritten_intent": "len(set(open(yourdictfile).read().split()))",
+    "question_id": 2212433,
+    "snippet": "count the number of keys in dictionary `yourdictfile`"
+  },
+  {
+    "intent": "df.groupby('id').first()",
+    "rewritten_intent": "df.groupby('id').first()",
+    "question_id": 20067636,
+    "snippet": "pandas dataframe get first row of each group by 'id'"
+  },
+  {
+    "intent": "pd.concat([df[0].apply(pd.Series), df[1]], axis=1)",
+    "rewritten_intent": "pd.concat([df[0].apply(pd.Series), df[1]], axis=1)",
+    "question_id": 40924332,
+    "snippet": "split a list in first column  into multiple columns keeping other columns as well in pandas data frame"
+  },
+  {
+    "intent": "re.findall('src=\"js/([^\"]*\\\\bjquery\\\\b[^\"]*)\"', data)",
+    "rewritten_intent": "re.findall('src=\"js/([^\"]*\\\\bjquery\\\\b[^\"]*)\"', data)",
+    "question_id": 30759776,
+    "snippet": "extract attributes 'src=\"js/([^\"]*\\\\bjquery\\\\b[^\"]*)\"' from string `data`"
+  },
+  {
+    "intent": "sum(int(float(item)) for item in [_f for _f in ['', '3.4', '', '', '1.0'] if _f])",
+    "rewritten_intent": "sum(int(float(item)) for item in [_f for _f in ['', '3.4', '', '', '1.0'] if _f])",
+    "question_id": 25388796,
+    "snippet": "Sum integers contained in strings in list `['', '3.4', '', '', '1.0']`"
+  },
+  {
+    "intent": "subprocess.Popen(['c:\\\\Program Files\\\\VMware\\\\VMware Server\\\\vmware-cmd.bat'])",
+    "rewritten_intent": "subprocess.Popen(['c:\\\\Program Files\\\\VMware\\\\VMware Server\\\\vmware-cmd.bat'])",
+    "question_id": 804995,
+    "snippet": "Call a subprocess with arguments `c:\\\\Program Files\\\\VMware\\\\VMware Server\\\\vmware-cmd.bat` that may contain spaces"
+  },
+  {
+    "intent": "q.put((-n, n))",
+    "rewritten_intent": "q.put((-n, n))",
+    "question_id": 26441253,
+    "snippet": "reverse a priority queue `q` in python without using classes"
+  },
+  {
+    "intent": "df['group'].plot(kind='bar', color=['r', 'g', 'b', 'r', 'g', 'b', 'r'])",
+    "rewritten_intent": "df['group'].plot(kind='bar', color=['r', 'g', 'b', 'r', 'g', 'b', 'r'])",
+    "question_id": 18897261,
+    "snippet": "make a barplot of data in column `group` of dataframe `df` colour-coded according to list `color`"
+  },
+  {
+    "intent": "re.findall('([a-fA-F\\\\d]{32})', data)",
+    "rewritten_intent": "re.findall('([a-fA-F\\\\d]{32})', data)",
+    "question_id": 373194,
+    "snippet": "find all matches of regex pattern '([a-fA-F\\\\d]{32})' in string `data`"
+  },
+  {
+    "intent": "len(my_list)",
+    "rewritten_intent": "len(my_list)",
+    "question_id": 518021,
+    "snippet": "Get the length of list `my_list`"
+  },
+  {
+    "intent": "len(l)",
+    "rewritten_intent": "len(l)",
+    "question_id": 518021,
+    "snippet": "Getting the length of array `l`"
+  },
+  {
+    "intent": "len(s)",
+    "rewritten_intent": "len(s)",
+    "question_id": 518021,
+    "snippet": "Getting the length of array `s`"
+  },
+  {
+    "intent": "len(my_tuple)",
+    "rewritten_intent": "len(my_tuple)",
+    "question_id": 518021,
+    "snippet": "Getting the length of `my_tuple`"
+  },
+  {
+    "intent": "len(my_string)",
+    "rewritten_intent": "len(my_string)",
+    "question_id": 518021,
+    "snippet": "Getting the length of `my_string`"
+  },
+  {
+    "intent": "\"\"\"\\\\a\"\"\".decode('string_escape')",
+    "rewritten_intent": "\"\"\"\\\\a\"\"\".decode('string_escape')",
+    "question_id": 40452956,
+    "snippet": "remove escape character from string \"\\\\a\""
+  },
+  {
+    "intent": "\"\"\"obama\"\"\".replace('a', '%temp%').replace('b', 'a').replace('%temp%', 'b')",
+    "rewritten_intent": "\"\"\"obama\"\"\".replace('a', '%temp%').replace('b', 'a').replace('%temp%', 'b')",
+    "question_id": 8687018,
+    "snippet": "replace each 'a' with 'b' and each 'b' with 'a' in the string 'obama' in a single pass."
+  },
+  {
+    "intent": "shutil.rmtree('/folder_name')",
+    "rewritten_intent": "shutil.rmtree('/folder_name')",
+    "question_id": 303200,
+    "snippet": "remove directory tree '/folder_name'"
+  },
+  {
+    "intent": "data['weekday'] = data['my_dt'].apply(lambda x: x.weekday())",
+    "rewritten_intent": "data['weekday'] = data['my_dt'].apply(lambda x: x.weekday())",
+    "question_id": 13740672,
+    "snippet": "create a new column `weekday` in pandas data frame `data` based on the values in column `my_dt`"
+  },
+  {
+    "intent": "sorted(x, key=x.get, reverse=True)",
+    "rewritten_intent": "sorted(x, key=x.get, reverse=True)",
+    "question_id": 20950650,
+    "snippet": "reverse sort Counter `x` by values"
+  },
+  {
+    "intent": "sorted(list(x.items()), key=lambda pair: pair[1], reverse=True)",
+    "rewritten_intent": "sorted(list(x.items()), key=lambda pair: pair[1], reverse=True)",
+    "question_id": 20950650,
+    "snippet": "reverse sort counter `x` by value"
+  },
+  {
+    "intent": "np.vstack((a, b))",
+    "rewritten_intent": "np.vstack((a, b))",
+    "question_id": 9775297,
+    "snippet": "append a numpy array 'b' to a numpy array 'a'"
+  },
+  {
+    "intent": "print(concatenate((a, b), axis=0))",
+    "rewritten_intent": "print(concatenate((a, b), axis=0))",
+    "question_id": 21887754,
+    "snippet": "numpy concatenate two arrays `a` and `b` along the first axis"
+  },
+  {
+    "intent": "print(concatenate((a, b), axis=1))",
+    "rewritten_intent": "print(concatenate((a, b), axis=1))",
+    "question_id": 21887754,
+    "snippet": "numpy concatenate two arrays `a` and `b` along the second axis"
+  },
+  {
+    "intent": "c = np.r_[(a[None, :], b[None, :])]",
+    "rewritten_intent": "c = np.r_[(a[None, :], b[None, :])]",
+    "question_id": 21887754,
+    "snippet": "numpy concatenate two arrays `a` and `b` along the first axis"
+  },
+  {
+    "intent": "np.array((a, b))",
+    "rewritten_intent": "np.array((a, b))",
+    "question_id": 21887754,
+    "snippet": "numpy concatenate two arrays `a` and `b` along the first axis"
+  },
+  {
+    "intent": "print(socket.getaddrinfo('google.com', 80))",
+    "rewritten_intent": "print(socket.getaddrinfo('google.com', 80))",
+    "question_id": 2805231,
+    "snippet": "fetch address information for host 'google.com' ion port 80"
+  },
+  {
+    "intent": "df.xs('sat', level='day', drop_level=False)",
+    "rewritten_intent": "df.xs('sat', level='day', drop_level=False)",
+    "question_id": 17552997,
+    "snippet": "add a column 'day' with value 'sat' to dataframe `df`"
+  },
+  {
+    "intent": "return HttpResponse('Unauthorized', status=401)",
+    "rewritten_intent": "return HttpResponse('Unauthorized', status=401)",
+    "question_id": 4356842,
+    "snippet": "return a 401 unauthorized in django"
+  },
+  {
+    "intent": "Flask(__name__, template_folder='wherever')",
+    "rewritten_intent": "Flask(__name__, template_folder='wherever')",
+    "question_id": 13598363,
+    "snippet": "Flask set folder 'wherever' as the default template folder"
+  },
+  {
+    "intent": "session.execute('INSERT INTO t1 (SELECT * FROM t2)')",
+    "rewritten_intent": "session.execute('INSERT INTO t1 (SELECT * FROM t2)')",
+    "question_id": 1849375,
+    "snippet": "How do I INSERT INTO t1 (SELECT * FROM t2) in SQLAlchemy?"
+  },
+  {
+    "intent": "c2.sort(key=lambda row: row[2])",
+    "rewritten_intent": "c2.sort(key=lambda row: row[2])",
+    "question_id": 3398589,
+    "snippet": "sort a list of lists 'c2' such that third row comes first"
+  },
+  {
+    "intent": "c2.sort(key=lambda row: (row[2], row[1], row[0]))",
+    "rewritten_intent": "c2.sort(key=lambda row: (row[2], row[1], row[0]))",
+    "question_id": 3398589,
+    "snippet": "Sorting a list of lists in Python"
+  },
+  {
+    "intent": "c2.sort(key=lambda row: (row[2], row[1]))",
+    "rewritten_intent": "c2.sort(key=lambda row: (row[2], row[1]))",
+    "question_id": 3398589,
+    "snippet": "Sorting a list of lists in Python"
+  },
+  {
+    "intent": "matplotlib.rc('font', **{'sans-serif': 'Arial', 'family': 'sans-serif'})",
+    "rewritten_intent": "matplotlib.rc('font', **{'sans-serif': 'Arial', 'family': 'sans-serif'})",
+    "question_id": 10960463,
+    "snippet": "set font `Arial` to display non-ascii characters in matplotlib"
+  },
+  {
+    "intent": "df['date'].apply(lambda x: x.toordinal())",
+    "rewritten_intent": "df['date'].apply(lambda x: x.toordinal())",
+    "question_id": 20576618,
+    "snippet": "Convert  DateTime column 'date' of pandas dataframe 'df' to ordinal"
+  },
+  {
+    "intent": "element.get_attribute('innerHTML')",
+    "rewritten_intent": "element.get_attribute('innerHTML')",
+    "question_id": 7263824,
+    "snippet": "get html source of Selenium WebElement `element`"
+  },
+  {
+    "intent": "df.index.get_loc('bob')",
+    "rewritten_intent": "df.index.get_loc('bob')",
+    "question_id": 31793195,
+    "snippet": "Get the integer location of a key `bob` in a pandas data frame"
+  },
+  {
+    "intent": "os.system('gnome-terminal -e \\'bash -c \"sudo apt-get update; exec bash\"\\'')",
+    "rewritten_intent": "os.system('gnome-terminal -e \\'bash -c \"sudo apt-get update; exec bash\"\\'')",
+    "question_id": 7574841,
+    "snippet": "open a 'gnome' terminal from python script and run  'sudo apt-get update' command."
+  },
+  {
+    "intent": "my_dict.update({'third_key': 1})",
+    "rewritten_intent": "my_dict.update({'third_key': 1})",
+    "question_id": 10487278,
+    "snippet": "add an item with key 'third_key' and value 1 to an dictionary `my_dict`"
+  },
+  {
+    "intent": "my_list = []",
+    "rewritten_intent": "my_list = []",
+    "question_id": 10487278,
+    "snippet": "declare an array"
+  },
+  {
+    "intent": "my_list.append(12)",
+    "rewritten_intent": "my_list.append(12)",
+    "question_id": 10487278,
+    "snippet": "Insert item `12` to a list `my_list`"
+  },
+  {
+    "intent": "myList.insert(0, 'wuggah')",
+    "rewritten_intent": "myList.insert(0, 'wuggah')",
+    "question_id": 10155684,
+    "snippet": "add an entry 'wuggah' at the beginning of list `myList`"
+  },
+  {
+    "intent": "\"\"\"\\\\xF3\\\\xBE\\\\x80\\\\x80\"\"\".replace('\\\\x', '').decode('hex')",
+    "rewritten_intent": "\"\"\"\\\\xF3\\\\xBE\\\\x80\\\\x80\"\"\".replace('\\\\x', '').decode('hex')",
+    "question_id": 3519125,
+    "snippet": "convert a hex-string representation to actual bytes"
+  },
+  {
+    "intent": "df[df.columns[-1]]",
+    "rewritten_intent": "df[df.columns[-1]]",
+    "question_id": 40144769,
+    "snippet": "select the last column of dataframe `df`"
+  },
+  {
+    "intent": "df.loc[df['Letters'] == 'C', 'Letters'].values[0]",
+    "rewritten_intent": "df.loc[df['Letters'] == 'C', 'Letters'].values[0]",
+    "question_id": 30787901,
+    "snippet": "get the first value from dataframe `df` where column 'Letters' is equal to 'C'"
+  },
+  {
+    "intent": "np.column_stack(([1, 2, 3], [4, 5, 6]))",
+    "rewritten_intent": "np.column_stack(([1, 2, 3], [4, 5, 6]))",
+    "question_id": 18730044,
+    "snippet": "converting two lists `[1, 2, 3]` and `[4, 5, 6]` into a matrix"
+  },
+  {
+    "intent": "type(i)",
+    "rewritten_intent": "type(i)",
+    "question_id": 402504,
+    "snippet": "get the type of `i`"
+  },
+  {
+    "intent": "type(v)",
+    "rewritten_intent": "type(v)",
+    "question_id": 402504,
+    "snippet": "determine the type of variable `v`"
+  },
+  {
+    "intent": "type(v)",
+    "rewritten_intent": "type(v)",
+    "question_id": 402504,
+    "snippet": "determine the type of variable `v`"
+  },
+  {
+    "intent": "type(v)",
+    "rewritten_intent": "type(v)",
+    "question_id": 402504,
+    "snippet": "determine the type of variable `v`"
+  },
+  {
+    "intent": "type(v)",
+    "rewritten_intent": "type(v)",
+    "question_id": 402504,
+    "snippet": "determine the type of variable `v`"
+  },
+  {
+    "intent": "print(type(variable_name))",
+    "rewritten_intent": "print(type(variable_name))",
+    "question_id": 402504,
+    "snippet": "get the type of variable `variable_name`"
+  },
+  {
+    "intent": "next(itertools.islice(range(10), 5, 5 + 1))",
+    "rewritten_intent": "next(itertools.islice(range(10), 5, 5 + 1))",
+    "question_id": 2300756,
+    "snippet": "get the 5th item of a generator"
+  },
+  {
+    "intent": "print('\"{}\"'.format(word))",
+    "rewritten_intent": "print('\"{}\"'.format(word))",
+    "question_id": 20056548,
+    "snippet": "Print a string `word` with string format"
+  },
+  {
+    "intent": "\"\"\" \"\"\".join(list)",
+    "rewritten_intent": "\"\"\" \"\"\".join(list)",
+    "question_id": 8546245,
+    "snippet": "join a list of strings `list` using a space ' '"
+  },
+  {
+    "intent": "y = [[] for n in range(2)]",
+    "rewritten_intent": "y = [[] for n in range(2)]",
+    "question_id": 2276416,
+    "snippet": "create list `y` containing two empty lists"
+  },
+  {
+    "intent": "data = [line.strip() for line in open('C:/name/MyDocuments/numbers', 'r')]",
+    "rewritten_intent": "data = [line.strip() for line in open('C:/name/MyDocuments/numbers', 'r')]",
+    "question_id": 3925614,
+    "snippet": "read a file 'C:/name/MyDocuments/numbers' into a list `data`"
+  },
+  {
+    "intent": "\"\"\"\"\"\".join([char for char in 'it is icy' if char != 'i'])",
+    "rewritten_intent": "\"\"\"\"\"\".join([char for char in 'it is icy' if char != 'i'])",
+    "question_id": 22187233,
+    "snippet": "delete all occurrences of character 'i' in string 'it is icy'"
+  },
+  {
+    "intent": "re.sub('i', '', 'it is icy')",
+    "rewritten_intent": "re.sub('i', '', 'it is icy')",
+    "question_id": 22187233,
+    "snippet": "delete all instances of a character 'i' in a string 'it is icy'"
+  },
+  {
+    "intent": "\"\"\"it is icy\"\"\".replace('i', '')",
+    "rewritten_intent": "\"\"\"it is icy\"\"\".replace('i', '')",
+    "question_id": 22187233,
+    "snippet": "delete all characters \"i\" in string \"it is icy\""
+  },
+  {
+    "intent": "\"\"\"\"\"\".join([char for char in 'it is icy' if char != 'i'])",
+    "rewritten_intent": "\"\"\"\"\"\".join([char for char in 'it is icy' if char != 'i'])",
+    "question_id": 22187233,
+    "snippet": "How to delete all instances of a character in a string in python?"
+  },
+  {
+    "intent": "df.dropna(subset=[1])",
+    "rewritten_intent": "df.dropna(subset=[1])",
+    "question_id": 13413590,
+    "snippet": "Drop rows of pandas dataframe `df` having NaN in column at index \"1\""
+  },
+  {
+    "intent": "[x for x in myList if x.n == 30]",
+    "rewritten_intent": "[x for x in myList if x.n == 30]",
+    "question_id": 598398,
+    "snippet": "get elements from list `myList`, that have a field `n` value 30"
+  },
+  {
+    "intent": "nums = [int(x) for x in intstringlist]",
+    "rewritten_intent": "nums = [int(x) for x in intstringlist]",
+    "question_id": 10351772,
+    "snippet": "converting list of strings `intstringlist` to list of integer `nums`"
+  },
+  {
+    "intent": "map(int, eval(input('Enter the unfriendly numbers: ')))",
+    "rewritten_intent": "map(int, eval(input('Enter the unfriendly numbers: ')))",
+    "question_id": 10351772,
+    "snippet": "convert list of string numbers into list of integers"
+  },
+  {
+    "intent": "sys.stdout.write('.')",
+    "rewritten_intent": "sys.stdout.write('.')",
+    "question_id": 493386,
+    "snippet": "print \".\" without newline"
+  },
+  {
+    "intent": "int(round(2.51 * 100))",
+    "rewritten_intent": "int(round(2.51 * 100))",
+    "question_id": 6569528,
+    "snippet": "round off the float that is the product of `2.52 * 100` and convert it to an int"
+  },
+  {
+    "intent": "os.chdir('/mydir')\nfor file in glob.glob('*.txt'):\n    pass",
+    "rewritten_intent": "os.chdir('/mydir')\nfor file in glob.glob('*.txt'):\n    pass",
+    "question_id": 3964681,
+    "snippet": "Find all files in directory \"/mydir\" with extension \".txt\""
+  },
+  {
+    "intent": "for file in os.listdir('/mydir'):\n    if file.endswith('.txt'):\n        pass",
+    "rewritten_intent": "for file in os.listdir('/mydir'):\n    if file.endswith('.txt'):\n        pass",
+    "question_id": 3964681,
+    "snippet": "Find all files in directory \"/mydir\" with extension \".txt\""
+  },
+  {
+    "intent": "for (root, dirs, files) in os.walk('/mydir'):\n    for file in files:\n        if file.endswith('.txt'):\n            pass",
+    "rewritten_intent": "for (root, dirs, files) in os.walk('/mydir'):\n    for file in files:\n        if file.endswith('.txt'):\n            pass",
+    "question_id": 3964681,
+    "snippet": "Find all files in directory \"/mydir\" with extension \".txt\""
+  },
+  {
+    "intent": "df.plot(legend=False)",
+    "rewritten_intent": "df.plot(legend=False)",
+    "question_id": 20865487,
+    "snippet": "plot dataframe `df` without a legend"
+  },
+  {
+    "intent": "for i in range(256):\n    for j in range(256):\n        ip = ('192.168.%d.%d' % (i, j))\n        print(ip)",
+    "rewritten_intent": "for i in range(256):\n    for j in range(256):\n        ip = ('192.168.%d.%d' % (i, j))\n        print(ip)",
+    "question_id": 13368659,
+    "snippet": "loop through the IP address range \"192.168.x.x\""
+  },
+  {
+    "intent": "for (i, j) in product(list(range(256)), list(range(256))):\n    pass",
+    "rewritten_intent": "for (i, j) in product(list(range(256)), list(range(256))):\n    pass",
+    "question_id": 13368659,
+    "snippet": "loop through the IP address range \"192.168.x.x\""
+  },
+  {
+    "intent": "generator = iter_iprange('192.168.1.1', '192.168.255.255', step=1)",
+    "rewritten_intent": "generator = iter_iprange('192.168.1.1', '192.168.255.255', step=1)",
+    "question_id": 13368659,
+    "snippet": "loop through the IP address range \"192.168.x.x\""
+  },
+  {
+    "intent": "sum(1 << i for i, b in enumerate(x) if b)",
+    "rewritten_intent": "sum(1 << i for i, b in enumerate(x) if b)",
+    "question_id": 4065737,
+    "snippet": "Sum the corresponding decimal values for binary values of each boolean element in list `x`"
+  },
+  {
+    "intent": "target.write('%r\\n%r\\n%r\\n' % (line1, line2, line3))",
+    "rewritten_intent": "target.write('%r\\n%r\\n%r\\n' % (line1, line2, line3))",
+    "question_id": 8691311,
+    "snippet": "write multiple strings `line1`, `line2` and `line3` in one line in a file `target`"
+  },
+  {
+    "intent": "[y for x in data for y in (x if isinstance(x, list) else [x])]",
+    "rewritten_intent": "[y for x in data for y in (x if isinstance(x, list) else [x])]",
+    "question_id": 10632111,
+    "snippet": "Convert list of lists `data` into a flat list"
+  },
+  {
+    "intent": "print('foo\\nbar'.encode('string_escape'))",
+    "rewritten_intent": "print('foo\\nbar'.encode('string_escape'))",
+    "question_id": 15392730,
+    "snippet": "Print new line character as `\\n` in a string `foo\\nbar`"
+  },
+  {
+    "intent": "\"\"\"\"\"\".join(s.rsplit(',', 1))",
+    "rewritten_intent": "\"\"\"\"\"\".join(s.rsplit(',', 1))",
+    "question_id": 1010961,
+    "snippet": "remove last comma character ',' in string `s`"
+  },
+  {
+    "intent": "(x[1:] + x[:-1]) / 2",
+    "rewritten_intent": "(x[1:] + x[:-1]) / 2",
+    "question_id": 23855976,
+    "snippet": "calculate the mean of each element in array `x` with the element previous to it"
+  },
+  {
+    "intent": "x[:-1] + (x[1:] - x[:-1]) / 2",
+    "rewritten_intent": "x[:-1] + (x[1:] - x[:-1]) / 2",
+    "question_id": 23855976,
+    "snippet": "get an array of the mean of each two consecutive values in numpy array `x`"
+  },
+  {
+    "intent": "arr = numpy.fromiter(codecs.open('new.txt', encoding='utf-8'), dtype='<U2')",
+    "rewritten_intent": "arr = numpy.fromiter(codecs.open('new.txt', encoding='utf-8'), dtype='<U2')",
+    "question_id": 6375343,
+    "snippet": "load data containing `utf-8` from file `new.txt` into numpy array `arr`"
+  },
+  {
+    "intent": "l = sorted(l, key=itemgetter('time'), reverse=True)",
+    "rewritten_intent": "l = sorted(l, key=itemgetter('time'), reverse=True)",
+    "question_id": 1547733,
+    "snippet": "reverse sort list of dicts `l` by value for key `time`"
+  },
+  {
+    "intent": "l = sorted(l, key=lambda a: a['time'], reverse=True)",
+    "rewritten_intent": "l = sorted(l, key=lambda a: a['time'], reverse=True)",
+    "question_id": 1547733,
+    "snippet": "Sort a list of dictionary `l` based on key `time` in descending order"
+  },
+  {
+    "intent": "df.loc[df[0].str.contains('(Hel|Just)')]",
+    "rewritten_intent": "df.loc[df[0].str.contains('(Hel|Just)')]",
+    "question_id": 37080612,
+    "snippet": "get rows of dataframe `df` that match regex '(Hel|Just)'"
+  },
+  {
+    "intent": "re.search('\\\\[(.*)\\\\]', your_string).group(1)",
+    "rewritten_intent": "re.search('\\\\[(.*)\\\\]', your_string).group(1)",
+    "question_id": 14716342,
+    "snippet": "find the string in `your_string` between two special characters \"[\" and \"]\""
+  },
+  {
+    "intent": "[d.strftime('%Y%m%d') for d in pandas.date_range('20130226', '20130302')]",
+    "rewritten_intent": "[d.strftime('%Y%m%d') for d in pandas.date_range('20130226', '20130302')]",
+    "question_id": 18684076,
+    "snippet": "How to create a list of date string in 'yyyymmdd' format with Python Pandas?"
+  },
+  {
+    "intent": "\"\"\"The big brown fox is brown\"\"\".count('brown')",
+    "rewritten_intent": "\"\"\"The big brown fox is brown\"\"\".count('brown')",
+    "question_id": 1666700,
+    "snippet": "count number of times string 'brown' occurred in string 'The big brown fox is brown'"
+  },
+  {
+    "intent": "json.loads(request.body)",
+    "rewritten_intent": "json.loads(request.body)",
+    "question_id": 18979111,
+    "snippet": "decode json string `request.body` to python dict"
+  },
+  {
+    "intent": "urllib.request.urlretrieve(url, file_name)",
+    "rewritten_intent": "urllib.request.urlretrieve(url, file_name)",
+    "question_id": 7243750,
+    "snippet": "download the file from url `url` and save it under file `file_name`"
+  },
+  {
+    "intent": "text.split()",
+    "rewritten_intent": "text.split()",
+    "question_id": 743806,
+    "snippet": "split string `text` by space"
+  },
+  {
+    "intent": "text.split(',')",
+    "rewritten_intent": "text.split(',')",
+    "question_id": 743806,
+    "snippet": "split string `text` by \",\""
+  },
+  {
+    "intent": "line.split()",
+    "rewritten_intent": "line.split()",
+    "question_id": 743806,
+    "snippet": "Split string `line` into a list by whitespace"
+  },
+  {
+    "intent": "[re.sub('(?<!\\\\d)\\\\.(?!\\\\d)', ' ', i) for i in s]",
+    "rewritten_intent": "[re.sub('(?<!\\\\d)\\\\.(?!\\\\d)', ' ', i) for i in s]",
+    "question_id": 35044115,
+    "snippet": "replace dot characters  '.' associated with ascii letters in list `s` with space ' '"
+  },
+  {
+    "intent": "sorted(list_of_strings, key=lambda s: s.split(',')[1])",
+    "rewritten_intent": "sorted(list_of_strings, key=lambda s: s.split(',')[1])",
+    "question_id": 38388799,
+    "snippet": "sort list `list_of_strings` based on second index of each string `s`"
+  },
+  {
+    "intent": "subprocess.check_call('vasp | tee tee_output', shell=True)",
+    "rewritten_intent": "subprocess.check_call('vasp | tee tee_output', shell=True)",
+    "question_id": 9609375,
+    "snippet": "call multiple bash function \u2018vasp\u2019 and \u2018tee tee_output\u2019 using \u2018|\u2019"
+  },
+  {
+    "intent": "[element for element in lst if isinstance(element, int)]",
+    "rewritten_intent": "[element for element in lst if isinstance(element, int)]",
+    "question_id": 37004138,
+    "snippet": "eliminate all strings from list `lst`"
+  },
+  {
+    "intent": "[element for element in lst if not isinstance(element, str)]",
+    "rewritten_intent": "[element for element in lst if not isinstance(element, str)]",
+    "question_id": 37004138,
+    "snippet": "get all the elements except strings from the list 'lst'."
+  },
+  {
+    "intent": "newlist = sorted(list_to_be_sorted, key=lambda k: k['name'])",
+    "rewritten_intent": "newlist = sorted(list_to_be_sorted, key=lambda k: k['name'])",
+    "question_id": 72899,
+    "snippet": "Sort a list of dictionaries `list_to_be_sorted` by the value of the dictionary key `name`"
+  },
+  {
+    "intent": "newlist = sorted(l, key=itemgetter('name'), reverse=True)",
+    "rewritten_intent": "newlist = sorted(l, key=itemgetter('name'), reverse=True)",
+    "question_id": 72899,
+    "snippet": "sort a list of dictionaries `l` by values in key `name` in descending order"
+  },
+  {
+    "intent": "list_of_dicts.sort(key=operator.itemgetter('name'))",
+    "rewritten_intent": "list_of_dicts.sort(key=operator.itemgetter('name'))",
+    "question_id": 72899,
+    "snippet": "How do I sort a list of dictionaries by values of the dictionary in Python?"
+  },
+  {
+    "intent": "list_of_dicts.sort(key=operator.itemgetter('age'))",
+    "rewritten_intent": "list_of_dicts.sort(key=operator.itemgetter('age'))",
+    "question_id": 72899,
+    "snippet": "How do I sort a list of dictionaries by values of the dictionary in Python?"
+  },
+  {
+    "intent": "df.groupby('prots').sum().sort('scores', ascending=False)",
+    "rewritten_intent": "df.groupby('prots').sum().sort('scores', ascending=False)",
+    "question_id": 36402748,
+    "snippet": "How to sort a Dataframe by the ocurrences in a column in Python (pandas)"
+  },
+  {
+    "intent": "\"\"\",\"\"\".join(trans['category'])",
+    "rewritten_intent": "\"\"\",\"\"\".join(trans['category'])",
+    "question_id": 29881993,
+    "snippet": "join together with \",\" elements inside a list indexed with 'category' within a dictionary `trans`"
+  },
+  {
+    "intent": "\"\"\"\"\"\".join(['A', 'B', 'C', 'D'])",
+    "rewritten_intent": "\"\"\"\"\"\".join(['A', 'B', 'C', 'D'])",
+    "question_id": 34158494,
+    "snippet": "concatenate array of strings `['A', 'B', 'C', 'D']` into a string"
+  },
+  {
+    "intent": "json.load(urllib.request.urlopen('url'))",
+    "rewritten_intent": "json.load(urllib.request.urlopen('url'))",
+    "question_id": 7750557,
+    "snippet": "get json data from restful service 'url'"
+  },
+  {
+    "intent": "[x for x in sents if not x.startswith('@$\\t') and not x.startswith('#')]",
+    "rewritten_intent": "[x for x in sents if not x.startswith('@$\\t') and not x.startswith('#')]",
+    "question_id": 12666897,
+    "snippet": "Remove all strings from a list a strings `sents` where the values starts with `@$\\t` or `#`"
+  },
+  {
+    "intent": "Entry.objects.filter(pub_date__contains='08:00')",
+    "rewritten_intent": "Entry.objects.filter(pub_date__contains='08:00')",
+    "question_id": 2984751,
+    "snippet": "django filter by hour"
+  },
+  {
+    "intent": "list.sort(key=lambda item: (item['points'], item['time']))",
+    "rewritten_intent": "list.sort(key=lambda item: (item['points'], item['time']))",
+    "question_id": 5944630,
+    "snippet": "sort a list of dictionary `list` first by key `points` and then by `time`"
+  },
+  {
+    "intent": "(t - datetime.datetime(1970, 1, 1)).total_seconds()",
+    "rewritten_intent": "(t - datetime.datetime(1970, 1, 1)).total_seconds()",
+    "question_id": 7852855,
+    "snippet": "convert datetime object `(1970, 1, 1)` to seconds"
+  },
+  {
+    "intent": "re.sub('(\\\\_a)?\\\\.([^\\\\.]*)$', '_suff.\\\\2', 'long.file.name.jpg')",
+    "rewritten_intent": "re.sub('(\\\\_a)?\\\\.([^\\\\.]*)$', '_suff.\\\\2', 'long.file.name.jpg')",
+    "question_id": 2763750,
+    "snippet": "insert `_suff` before the file extension in `long.file.name.jpg` or replace `_a` with `suff` if it precedes the extension."
+  },
+  {
+    "intent": "import imp\nimp.reload(module)",
+    "rewritten_intent": "import imp\nimp.reload(module)",
+    "question_id": 6420361,
+    "snippet": "reload a module `module`"
+  },
+  {
+    "intent": "struct.unpack('H', struct.pack('h', number))",
+    "rewritten_intent": "struct.unpack('H', struct.pack('h', number))",
+    "question_id": 19546911,
+    "snippet": "Convert integer `number` into an unassigned integer"
+  },
+  {
+    "intent": "numlist = [float(x) for x in numlist]",
+    "rewritten_intent": "numlist = [float(x) for x in numlist]",
+    "question_id": 9746522,
+    "snippet": "convert int values in list `numlist` to float"
+  },
+  {
+    "intent": "df.to_csv(filename, index=False)",
+    "rewritten_intent": "df.to_csv(filename, index=False)",
+    "question_id": 20107570,
+    "snippet": "write dataframe `df`, excluding index, to a csv file"
+  },
+  {
+    "intent": "json_data = json.loads(unescaped)",
+    "rewritten_intent": "json_data = json.loads(unescaped)",
+    "question_id": 8740353,
+    "snippet": "convert a urllib unquoted string `unescaped` to a json data `json_data`"
+  },
+  {
+    "intent": "[chr(i) for i in range(127)]",
+    "rewritten_intent": "[chr(i) for i in range(127)]",
+    "question_id": 5891453,
+    "snippet": "Create a list containing all ascii characters as its elements"
+  },
+  {
+    "intent": "newFile.write(struct.pack('5B', *newFileBytes))",
+    "rewritten_intent": "newFile.write(struct.pack('5B', *newFileBytes))",
+    "question_id": 18367007,
+    "snippet": "write `newFileBytes` to a binary file `newFile`"
+  },
+  {
+    "intent": "re.sub('^[A-Z0-9]*(?![a-z])', '', string)",
+    "rewritten_intent": "re.sub('^[A-Z0-9]*(?![a-z])', '', string)",
+    "question_id": 21805490,
+    "snippet": "python regex - check for a capital letter with a following lowercase in string `string`"
+  },
+  {
+    "intent": "list(dict.keys())[-1]",
+    "rewritten_intent": "list(dict.keys())[-1]",
+    "question_id": 16125229,
+    "snippet": "get the last key of dictionary `dict`"
+  },
+  {
+    "intent": "print('hi there', file=f)",
+    "rewritten_intent": "print('hi there', file=f)",
+    "question_id": 6159900,
+    "snippet": "write line \"hi there\" to file `f`"
+  },
+  {
+    "intent": "f = open('myfile', 'w')\nf.write('hi there\\n')\nf.close()",
+    "rewritten_intent": "f = open('myfile', 'w')\nf.write('hi there\\n')\nf.close()",
+    "question_id": 6159900,
+    "snippet": "write line \"hi there\" to file `myfile`"
+  },
+  {
+    "intent": "with open('somefile.txt', 'a') as the_file:\n    the_file.write('Hello\\n')",
+    "rewritten_intent": "with open('somefile.txt', 'a') as the_file:\n    the_file.write('Hello\\n')",
+    "question_id": 6159900,
+    "snippet": "write line \"Hello\" to file `somefile.txt`"
+  },
+  {
+    "intent": "s.encode('iso-8859-15')",
+    "rewritten_intent": "s.encode('iso-8859-15')",
+    "question_id": 19527279,
+    "snippet": "convert unicode string `s` to ascii"
+  },
+  {
+    "intent": "AuthorizedEmail.objects.filter(group=group).order_by('-added')[0]",
+    "rewritten_intent": "AuthorizedEmail.objects.filter(group=group).order_by('-added')[0]",
+    "question_id": 10668585,
+    "snippet": "Django get maximum value associated with field 'added' in model `AuthorizedEmail`"
+  },
+  {
+    "intent": "re.findall('Test([0-9.]*[0-9]+)', text)",
+    "rewritten_intent": "re.findall('Test([0-9.]*[0-9]+)', text)",
+    "question_id": 356483,
+    "snippet": "Find all numbers and dots from a string `text` using regex"
+  },
+  {
+    "intent": "re.findall('Test([\\\\d.]*\\\\d+)', text)",
+    "rewritten_intent": "re.findall('Test([\\\\d.]*\\\\d+)', text)",
+    "question_id": 356483,
+    "snippet": "python regex  to find all numbers and dots from 'text'"
+  },
+  {
+    "intent": "os.system('powershell.exe', 'script.ps1')",
+    "rewritten_intent": "os.system('powershell.exe', 'script.ps1')",
+    "question_id": 38081866,
+    "snippet": "execute script 'script.ps1' using 'powershell.exe' shell"
+  },
+  {
+    "intent": "b.sort(key=lambda x: x[1][2])",
+    "rewritten_intent": "b.sort(key=lambda x: x[1][2])",
+    "question_id": 7349646,
+    "snippet": "Sort a list of tuples `b` by third item in the tuple"
+  },
+  {
+    "intent": "list(cf.get_range().get_keys())",
+    "rewritten_intent": "list(cf.get_range().get_keys())",
+    "question_id": 2430539,
+    "snippet": "get a list of all keys in Cassandra database `cf` with pycassa"
+  },
+  {
+    "intent": "datetime.datetime.now()",
+    "rewritten_intent": "datetime.datetime.now()",
+    "question_id": 10607688,
+    "snippet": "create a datetime with the current date & time"
+  },
+  {
+    "intent": "next(i for i, x in enumerate(lst) if not isinstance(x, bool) and x == 1)",
+    "rewritten_intent": "next(i for i, x in enumerate(lst) if not isinstance(x, bool) and x == 1)",
+    "question_id": 30843103,
+    "snippet": "get the index of an integer `1` from a list `lst` if the list also contains boolean items"
+  },
+  {
+    "intent": "a[:] = [(x - 13) for x in a]",
+    "rewritten_intent": "a[:] = [(x - 13) for x in a]",
+    "question_id": 4918425,
+    "snippet": "subtract 13 from every number in a list `a`"
+  },
+  {
+    "intent": "random.choice(os.listdir('C:\\\\'))",
+    "rewritten_intent": "random.choice(os.listdir('C:\\\\'))",
+    "question_id": 701402,
+    "snippet": "choose a random file from the directory contents of the C drive, `C:\\\\`"
+  },
+  {
+    "intent": "max(x.min(), x.max(), key=abs)",
+    "rewritten_intent": "max(x.min(), x.max(), key=abs)",
+    "question_id": 17794266,
+    "snippet": "get the highest element in absolute value in a numpy matrix `x`"
+  },
+  {
+    "intent": "re.findall('\"(http.*?)\"', s, re.MULTILINE | re.DOTALL)",
+    "rewritten_intent": "re.findall('\"(http.*?)\"', s, re.MULTILINE | re.DOTALL)",
+    "question_id": 30551576,
+    "snippet": "Get all urls within text `s`"
+  },
+  {
+    "intent": "re.findall('http://[^t][^s\"]+\\\\.html', document)",
+    "rewritten_intent": "re.findall('http://[^t][^s\"]+\\\\.html', document)",
+    "question_id": 30551576,
+    "snippet": "match urls whose domain doesn't start with `t` from string `document` using regex"
+  },
+  {
+    "intent": "mystring.replace(' ', '! !').split('!')",
+    "rewritten_intent": "mystring.replace(' ', '! !').split('!')",
+    "question_id": 113534,
+    "snippet": "split a string `mystring` considering the spaces ' '"
+  },
+  {
+    "intent": "open(path, 'r')",
+    "rewritten_intent": "open(path, 'r')",
+    "question_id": 5838735,
+    "snippet": "open file `path` with mode 'r'"
+  },
+  {
+    "intent": "[[sum(item) for item in zip(*items)] for items in zip(*data)]",
+    "rewritten_intent": "[[sum(item) for item in zip(*items)] for items in zip(*data)]",
+    "question_id": 36003967,
+    "snippet": "sum elements at the same index in list `data`"
+  },
+  {
+    "intent": "a[:, (np.newaxis)]",
+    "rewritten_intent": "a[:, (np.newaxis)]",
+    "question_id": 7635237,
+    "snippet": "add a new axis to array `a`"
+  }
+]

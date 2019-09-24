@@ -1,0 +1,1371 @@
+Elham 
+What keeps me awake
+Am I really done with the interviews? Is this for real?
+
+Priorities for ___next_week___
+Create the final report for LT report out
+Get estimate from Eng for next phase
+Send Data Alliance concept to Marketing for AGIFORS
+Send FlightCommunicator use case to eng team
+Make sure strategy slides look pretty
+Follow up with UX hiring
+
+Where do I need help with?
+
+Evi
+What keeps me awake
+The future
+
+Priorities for ___next_week___
+Although I'm on leave:
+Work on CrewCompanion Gate
+Follow up CrewTab - Safran/Zodiac collaboration – meeting for next steps on next Thu 
+
+Where do I need help with?
+
+
+Paul
+
+What keeps me awake?
+Lack of progress from Service Ops on the main purchasing questions
+
+What are my priorities for ___next_week___?
+Continue to detail the 7.2 candidates
+Write up report from ICAO DTR
+Gate doc for Global Beacon (once relevant gate decided)
+
+Where do I need help?
+Serene Air are reporting issues adding Space Based (GG – is this covered by SIP?)
+Confirmation on progress from Engineering on PAP or Commissioning issues
+
+
+Alex 
+What keeps me awake?
+Handover / knowledge exchange
+Priority tasklist
+GetWell new environment and migration (-> herding cats)
+
+What are my priorities for ___next_week___?
+Easter Weekend – hot weather, BBQ and ... Easter Eggs!
+ASP/FM Def Docs updates
+ASP/FM Service Catalogues
+FM/ASP/ASPO/Trial service schedule reviews & new environment pricing
+
+Where do I need help?
+Handover/knowledge exchange (15 full working days left)
+Driving & agreeing 7.2 scoping
+GetWell CC#4 PCM resource unavailable to execute/manage/assign doc changes
+
+Ian
+What keeps me awake
+Trust in FP P&L figures(!)
+
+Priorities for ___next_week___
+FP P&L presentation as a prerequisite for the Host migration gate
+Preparing for FP Host migration gate 2
+Evaluate price increase for FP
+DTN contract – meeting with DTN and engagement with Purchasing / Kal
+Easter eggs & beer!
+
+Where do I need help with?
+Representing FP Host migration costs (already getting help from Julie)
+
+
+Elham
+What keeps me awake
+UX hiring is slow
+
+Priorities for ___next_week___
+Socialize the findings of phase 2/ get feedback
+Maybe one or two last interviews
+
+Where do I need help with?
+I would like to present the results to team
+
+
+Igor
+What keeps me awake
+Ongoing hiring
+Upcoming gates and strategy review
+Focus Group – are we ready?
+
+___next_week___
+YUL visit – interviews, strategy and gates
+
+Where do I need help
+Analysing Survey Results and feedback
+Strategy alignment
+Road Map Status
+
+
+Other business
+Feedback from SPM meeting
+YUL visit
+Focus Group
+Rola's need help
+Road Map Status
+
+Ian
+What keeps me awake
+Engineering resources
+
+Priorities for ___next_week___
+Customer notifications for GraFlite withdrawal
+Preparing for FP Host migration gate 2 & update with Dom on progress
+Evaluate price increase for FP
+Finalize 7.2 prioritization
+Fine tuning FP automation requirements with Engineering and SMEs
+FP Focus Group – go / no go?
+
+Where do I need help with?
+Modelling scenarios for host migration cost impact (already getting help from Julie)
+
+
+Mahen
+What keeps me awake
+Air Transat final presentation (commercial/functional)
+Priorities for ___next_week___
+Gate-5 and draft version for EFB AVIO/Flightman
+Summary of what support for existing customers vs financial analysis
+SCOOT – Project closure with Sunil and team
+Help Dan Muller and David to close the TAROM project
+Prepare AVIO NG notes for existing customers
+
+Where do I need help with?
+Meeting with Thales
+
+
+Toby
+What keeps me awake
+Delta RFP  - deadline 19th April
+G2M eWAS Dsp
+
+Priorities for ___next_week___:
+Delta BAB/response by 17th
+Offer to Graduate should be released – Viktorija Kucerova
+First contribution to DDDO for Crew Apps– might need Elham for a 1 hour catch up with self, Mahen & Evi
+IATA Turbulence initiative linkage with AID
+G2 eWAS DSp – Laila kicked off
+
+Where do I need help?
+George to validate eWAS Dsp G2M
+
+Evi:
+What keeps me awake
+Work load- Strategy Vs Fire fighting
+
+Priorities for ___next_week___
+Q1 Release Notes
+Gates
+Start on CrewCompanion Gate 1
+Start on CrewTab Retail gate
+Gate for Quarterly Release
+CCRs and rest of daily business
+Plan specs on Q2 Roadmap items
+EY- Sita lab call on CrewCheckin
+
+
+Where do I need help with?
+---
+
+George
+What keeps me awake 
+Not yet seeing the light at the end of the tunnel re: FT issues
+ Priorities for ___next_week___   
+Space-Based SIP
+WS2
+Customer communication related to network outages (New scope)
+Coordination with FA (New scope)
+Contractual exposure to GADSS (New scope)
+Answers to Dom's requests for input (New scope)
+FT Web + NG Business Case Input
+Submit 7.2 to Engineering (Alex’s spreadsheet)
+Get visibility on PAP for Space Based ADS-B / FR-A G3
+SFDC opportunities
+Trello overview to team for next Wednesday's team meeting
+ On my radar but with limited time:
+eWAS Dispatch activation support / contractual obligations with FA
+Investigate pricing increase for FlightTracker (provide plan to Dom only)
+Lion Air trial feedback (reply to BDM)
+FlightAware Cebu-OOOI negotiation support
+Where do I need help with?  
+Discuss unsolicited FT proposal to AA (Ian G).
+FR-A training / documentation part of Gate 4 (Paul)
+AA2000 GX presentation (Paul?)
+Global Beacon Gate X presentation (Paul?)
+
+Ian:
+What keeps me awake
+Global migration to AMHS & the potential impact on ATC plan filing...still
+
+Priorities for ___next_week___
+GraFlite EOL notifications; interlocking with GEOs and sending notices
+Preparing for FP Host migration gate 2
+BAB for Mindtree 2019 contract (9 April)
+Prioritizing 7.2 candidates – finalizing list & populating Alex's spreadsheet
+FP Focus Group
+
+Where do I need help with?
+Gate 2 for Pilot Brief Portal – looks like it won't be ready in time!
+
+
+Paul
+What keeps me awake
+Getting 7.2 developments agreed
+The ‘track an aircraft not a flight’ bandwagon (like it is a simple choice!)
+
+Priorities for ___next_week___
+Attend the ICAO DTR workshop in YUL
+
+
+Where do I need help with?
+Nothing specific
+
+Ian:
+What keeps me awake
+Global migration to AMHS & the potential impact on ATC plan filing
+
+Priorities for ___next_week___
+Finalize slides for FP Host migration gate 1
+BAB for Mindtree 2019 contract
+Prioritizing 7.2 candidates
+Agenda and list of use cases for the FP focus group
+
+Where do I need help with?
+FP Host Migration financials (Julie)
+
+Elham
+What keeps me awake
+Rien de rien
+
+Priorities for ___next_week___
+3 interview sessions this week (Scoot, Azul, UPS and maybe Vistara)
+Summarize the results
+Make template for session 2 interviews for ___next_week___ (Cebu)
+Working with data scientist to look into UPS database
+
+Where do I need help with?
+interview with customers in Europe and middle east
+
+Paul
+What keeps me awake
+Continued handover /  Process changes
+
+Priorities for ___next_week___
+Continue work on detailed requirements for 7.2
+Update FR-A presentation material
+
+Where do I need help with?
+Finalise 7.2 candidates
+
+
+George
+What keeps me awake 
+A lot going on
+Priorities for ___next_week___   
+FT Web + NG Business Case Input
+Prioritize 7.2 candidates (with Paul)
+FlightAware Cebu-OOOI negotiation support
+Get visibility on PAP for Space Based ADS-B / FR-A G3
+Space-based SIP
+FlightAware / SOA coordination
+Follow up on internal actions
+Validate bill received from FA on Space-Based and verify internal billing
+eWAS Dispatch Dispaactivation support / contractual obligations with FA
+Investigate pricing increase for FlightTracker (provide plan to Dom only)
+Lion Air trial feedback (reply to BDM)
+Note: Key dates on 7.2 from engineering (requirements in to Engineering no later than April 14th) as BA's will be busy with 7.1. RCD which starts mid-April)
+
+Where do I need help with?  
+AA2000 GX presentation (follow up with AH)
+FT Web communique / on-boarding presentation (Paul)
+
+Evi:
+What keeps me awake
+Work load & All the things I wanna do to make CrewTab fly
+
+Priorities for ___next_week___
+Follow up with issues missed while on CrewTab Roadshow & ongoing CCRs
+Follow up CrewTab Roadshow with clients visited
+Get more feedback from ETD on CrewCompanion // push them buy the new features
+Get back to FlyDubai & VA
+Prepare for CrewCompanion Gate
+AIX Show/panel discussion
+KISH AIR BAB
+Safran/Zodiac Visit in Alkmaar
+
+Where do I need help with?
+General CrewTab Strategy/New Pricing/Business Case/BDMs – all issues discussed with Igor/Toby earlier
+
+Igor
+
+What keeps me awake?
+Gates being postponed to April
+Goals not set up
+Strategy not clear
+Recruitment
+I need to share more information
+
+Priorities for ___next_week___
+Get ready for vacation
+Send out organization updates
+
+Where do I need help with?
+FM/FT/ ASP decoupling business case
+Strategy alignment
+Setting up teams
+
+Toby: 
+What keeps me awake: 
+Project Friend
+Gate 2 eWAS Dsp
+Handover on eWAS from Simon - calls with Laila (PCM) & learning on Admin Server
+
+  Priorities for ___next_week___: 
+Attend Flt Ops MRO Conf in AMS & Workshop with Zodiac on IOT/CrewTab
+Gate 2 work with PCM for eWAS Dispatch
+End of life/sunset review of Avio - Mahen started
+Monthly report progressing – excel automated example given by Herieta & now asking Julie for official revenue file
+
+Where do I need help?
+Formatting in Teams!
+Help from PCM / support teams on Gate 2 content
+
+Ian:
+What keeps me awake
+The feeling that I need to choose between doing all of my tasks badly, or some of them well
+
+Priorities for ___next_week___
+Prepare alignment slides for the 2019 Mindtree contract
+Finalizing slides for the Flight Planning host migration Gate 1
+Complete the PRD for Pilot Brief Portal for Gate 2 in April
+Prioritizing 7.2 candidates
+Feedback on OMA's wish list for Customer review meeting on 26 Mar
+Agenda and list of use cases for the FP focus group
+Updating Henrieta's customer list
+
+Where do I need help with?
+Product P&L (Julie)
+
+
+Alex 
+What keeps me awake?
+Handover / knowledge exchange
+Priority tasklist
+GetWell timings
+
+What are my priorities for ___next_week___?
+Backlog grooming actions
+ASP Def Docs updates
+WebServices Use Cases (also read recent info from PYC)
+7.2 Scoping
+FM/ASP/ASPO/Trial service schedule reviews
+
+Where do I need help?
+Handover/knowledge exchange to someone
+Avoid further training/involvement in strategy-related topics
+March ASP license key renewals (PR already actioned a few)
+
+Paul 
+What keeps me awake?
+·         My dog barking constantly from 0330 on!! ☹
+·         Finding the opportunity to provide more detailed requirements for v7.2 candidates
+
+What are my priorities for ___next_week___?
+·         Munich Connected Aircraft Conference
+·         Finish v7.2 candidate list
+
+
+Where do I need help?
+·         Agree v7.2 candidates to give initial focus for YUL devel
+·         Further handover activity with George incl FTWeb communique
+
+Elham
+What keeps me awake?
+No interview yet confirmed
+What are my priorities for ___next_week___?
+Design my interviews
+Work with data team to start up
+Start drafting concepts
+Meeting with CAD and Romain   
+Where do I need help?
+How should I follow up with BDMs?
+
+
+Toby: 
+What keeps me awake: 
+Project Friend workload
+Gate 2
+Handover on eWAS from Simon - calls with Laila (PCM) & learning on Admin Server
+
+Priorities for ___next_week___: 
+Safety Line Workshop 13th @LondonGate
+Gate 2 work with PCM for eWAS Dispatch
+Complete draft objectives
+Recruitement of graduate - good candidate telephone interview - face to face when Evi is back & reviewing other CV's - one from an interestingly named Holly Beech...Evi's pronunciation is Holy Bitch
+Prep Flight Ops MRO event 26/27th - Alex Laj, myself & Romain Favenec attending
+Start end of life/sunset review of Avio - Mahen back in office ___next_week___
+BAB submissions on Emirates & easyjet 
+First working draft for monthly report - working with Henrieta & Elham on auto content/look & feel with input from Igor & Ian - 1 x slider we can all complete in 15 mins per month
+Where do I need help?
+Help from PCM / support teams on Gate 2 content
+
+
+George:
+What keeps me awake
+A lot going on
+
+Priorities for ___next_week___   
+FT Web Gate 2 Presentation Cleanup
+FT Web Business Case Input
+FlightAware Cebu-OOOI negotiation support
+Get visibility on PAP for Space Based ADS-B / FR-A G3
+Space-based SIP
+FlightAware / SOA coordination
+Follow up on internal actions
+Get some data from Helen T. on billing
+Enter Goals for 2019
+Check billing on Space-Based (are there any big billing misses)
+Investigate pricing increase for FlightTracker (provide plan to Dom only)
+Lion Air trial feedback (reply to BDM)
+Process Global Beacon info package
+Get key dates on 7.2 from engineering (requirements in to Engineering no later than April 14th) as BA's will be busy with 7.1. RCD which starts mid-April)
+
+Where do I need help with?  
+AA2000 GX presentation (follow up with AH)
+FT Web communique / on-boarding presentation (Paul)
+eWAS trials -- activation and contractual obligations with FA
+
+Igor
+
+What keeps me awake
+ASP Strategic Path / GetWell timelines, milestone
+Recruitments
+FlightDeck Strategy
+FT Web business case
+Governance topics
+
+___next_week___
+ASP LT meeting prep
+Recruiting
+Finalize Goals
+Next steps in clarifying strategy
+
+What I need help with
+Recruitment / HR
+Various  requests
+
+Info
+Road Map initiative
+Brief the team  on strategy
+SPM meeting – debrief
+___next_week___ in London
+Focus Groups / UX
+
+Ian:
+What keeps me awake
+Yeah...it's still Stage gates
+
+Priorities for ___next_week___
+Prepare a Gate 1 for the 2019 Mindtree contract
+Finalizing slides for the Flight Planning host migration Gate 1
+Complete the PRD for Pilot Brief Portal for Gate 2 in April
+Prioritising 7.2 candidates..
+Setting goals
+
+Where do I need help with?
+Creating a FP product P&L with Julie (we’re both asking each other for the same thing!)
+
+Alex:
+What keeps me awake?
+Handover / knowledge exchange
+ASP Def Docs updates (GetWell dependency)
+What are my priorities for ___next_week___(s)?
+ASP Def Docs updates
+Backlog grooming actions
+WebServices Use Cases (also read recent info from PYC)
+7.2 Scoping
+FM/ASP/ASPO/Trial service schedule reviews
+AA2000 Productionisation
+Stage Gate #2 v7.1 (if needed)
+Start a repository of ASP/FM stuff for handover
+Where do I need help?
+Handover/knowledge exchange to someone
+Less emails
+QF need managing (want a script)
+Delta need managing (also want a script/consultancy)
+SWA Opportunity
+Multiple SalesForce cases
+
+Paul
+What keeps me awake?
+Handovers to OPS for Purchasing items and Activation processes
+
+Priorities for ___next_week___
+Complete discussions about 7.2 priorities and extract from candidate list, the items to be described further
+Complete the first draft of Customer Communique for FT Web
+Start prep for Connected Aircraft Panel discussions
+
+Need help with
+Continued co-ordination from George with the groups in YUL concerning the handovers/PAP etc to Ops
+
+
+George:
+What keeps me awake
+FlightAware's impact on much of H1 roadmap (some good progress this week)
+A lot going on
+Priorities for ___next_week___
+FlightAware Cebu-OOOI negotiation support
+FR-A G3
+FlightAware Operationalization Follow Up (Kickoff occurred this week)
+Space-based SIP (non-FlightAware aspects)
+Status update on PAP for Space-Based and FR-A
+ Where do I need help with?  
+AA2000 GX planning (Alex)
+
+Igor
+
+What keeps me awake
+Alex replacement and how to make sure that he is not disturbed with day to day items. (Product Analyst advertised, looking if we can get a consultant in short term to help, Product Manager add to be issued this week)
+A lot of balls in the air - I am really thankful for all the efforts being put in at the moment!
+
+Priorities for ___next_week___
+Alex replacement
+FT Web business case
+ASP Strategic path preparation for LT meeting on April 14th
+Processing feedback from Dubai
+Getting customer engagement topics going (DataSense, FlightOptimizer Focus Group)
+Help push GetWell ASP
+Finalize the plan with Toby around EFB next steps
+
+Where do I need help
+As per ongoing discussions
+
+Ian:
+What keeps me awake
+Stage gates! Although I've started dreaming about them as well... o_o
+
+Priorities for ___next_week___
+Prep for SteerCo update on GF to FP migration (Fri 1 Mar)
+PRD for Pilot Brief Portal for Gate 2 in April
+Prep with Prashanth on the Gate 1 for the FP Host migration final phase @end of Mar
+Discussing the potential for domestic Chinese FP solution with Katrina to integrate into the Host migration business case
+[Possibly] prep a Gate 2 for the Mindtree dev outsource contract (because there aren't enough stage gates in the world today)
+
+Where do I need help with?
+Arranging the next Focus Group
+
+
+Paul:
+What keeps me awake
+Progress (or lack of) from Operations on completing PAP / taking over responsibility for activation and the subsequent impact on Stagegate submissions
+
+Priorities for ___next_week___
+Gate 3 for FR-A (plus support GG for Space Based)
+Provide v7.2 development candidates
+
+
+Where do I need help with?
+Any of the above
+
+
+George:
+What keeps me awake
+FlightAware's impact on much of H1 roadmap (eWAS/Global Beacon G2M Strategy, SIP WS1/WS2)
+A lot going on
+
+Priorities for ___next_week___
+FR-A G3
+FlightAware Operationalization Kickoff and Monitoring
+Space-based SIP (non-FlightAware aspects)
+FlightAware Cebu-OOOI negotiation support
+ Where do I need help with?  
+FR-A G3 (Paul)
+AA2000 GX planning (Alex)
+
+
+Toby:
+
+What keeps me awake
+You still really don't want to  know ;-p
+
+Priorities for ___next_week___
+Continue GTD resell agreement amendment & Gate 2 population
+Biz case for A&A topic
+Secure Safety Line date for ½ day workshop in UK – email sent – awaiting response... aiming for early March in RP – Elham interested
+Design simple KPI one pager using some ideas from other Product KPI's
+Planning on March Conference in AMS
+Analysing eWAS Productisation gap
+PAP completed July 2018
+Simon documenting delivery process with PCM for Etihad project & will use this as a final structure
+Product will be handed over to Operations for ongoing support
+
+Where do I need help?
+Finance help on A&A activities – am getting support from Julie
+Pulse Team to kickoff March event planning – meeting will happen this week
+
+
+Alex
+Awake:
+Handover / knowledge exchange
+
+Priorities
+Knowledge sharing and handover planning
+Feed back to Igor on requested info this week (productisation issues, NG history, job-profile)
+Discuss tasks/prio with Igor
+Stage Gates (help Neil)
+
+Help
+N/A
+
+
+Evi:
+
+Awake:
+Overloaded Mailbox/Requests coming in like crazy
+
+Priorities for this ___next_week___:
+
+VA Contract renewal
+MEA proposal
+Kish Scope
+Customer Visits agenda/organise workshops + new entry Aeroflot prob next - week
+Features pricing
+Get time for gates
+Customer requests
+
+
+Help:
+Pricing & contract issues—getting help by Toby
+
+Igor
+
+What keeps me awake
+Alex departure
+FT Web Gate 2+ / business case
+ASP Strategic Path
+EFB strategy – AVIO next step
+
+Priorities for ___next_week___
+ASP Strategic path
+Goals H1 2019
+Preparation for Dubai Commercial meeting
+Graduate follow up
+Alex replacement
+
+Where do I need help with?
+Support with email requests
+EFB strategy – Toby and Mahen
+
+Elham:
+What keeps me awake
+How Friday meeting can go wrong 
+
+Priorities for ___next_week___
+Make sure the presentation is fine (till Friday)
+Make plans based on the outcome (start planning airline interview, get ENG onboard, get stakeholders on board…)  
+
+Where do I need help with?
+None
+
+I am OOO from 20 returning 27th. 
+
+Ian:
+What keeps me awake
+GF to FP migration project & how I prioritize this against upcoming stage gates 
+
+Priorities for ___next_week___
+Align within SPM on GF to FP migration to present a Steerco update
+PRD for Pilot Brief Portal
+Work with Prashanth on the Gate 1 for the FP Host migration final phase
+Arrange a kick-off for the Flight Planning focus group (Igor, Sergei, Elham, Katrina)
+Assess if I have the bandwidth to attend IATA Flight Ops task force meeting
+
+Where do I need help with?
+GF to FP migration alignment to address Yann's questions on project objectives - Dom & Igor
+
+
+Toby:
+What keeps me awake
+You really don't want to  know ;-p
+
+Priorities for ___next_week___
+Continue GTD resell agreement amendment & Gate 2 population
+Work with George G/Kal on FA ADSB rules of usage & draft price for trials/demos/eventual contracts
+Finish catch ups with team post my absence
+Complete some diligence on A&A Project
+Secure Safety Line date for ½ day workshop in UK
+Assess reporting KPI's with Igor for product reporting – aim to keep simple
+
+Where do I need help?
+Advice on FA ADSB rules/timeline
+Will use legal for GTD amendment
+
+Alex:  
+What keeps me awake?  
+GetWell: Eng Design+BoM and CAD migration plan for Cloud customers are critical path -> StageGate 4 for 7.0
+ASP Def Docs updates - post-review actions overdue and need to progress prior to next SteerCo (and to enable Eng Gap Analysis task)
+
+What are my priorities for ___next_week___?  
+ASP Def Docs review updates 
+Support Neil with ASP v7.1 StageGate 2
+Actions following YUL workshops - provide minutes for Process Workshop, etc.
+WebServices use case summary slides (FT input needed) – SITA CIS DataConnectAPI is currently in customer trials so we can add our customers to them, once technical feasibility is first confirmed.
+License approvals process
+produce one-page summary then Igor can push with Nick and others
+licensing server (config mgmt) ad-hoc StageGate
+Review ServiceSchedules for Legal
+AA2000 StageGate
+7.2 scoping/estimation (me/George?)
+
+Where do I need help?  
+Info on FT use cases for WebServices from FT team
+Continued support on outstanding license approvals
+New car tyre
+
+
+Evi:
+What keeps me awake
+Stress 
+Unicorns (thanx to Alex)
+
+Priorities for ___next_week___
+Commercial Ops CrewTab (MEA, VA) and demos (MEA, Honk Kong)
+Gates
+CrewTab Roadshow agendas + Preperation
+Service Checklist – Product List 
+Renew Pricing List
+CCRS
+Zodiac Next Steps
+
+Where do I need help with?
+Finding best Pilot Uniform provider
+
+Paul
+What keeps me awake
+Apart from the ***** cough??  – trying to get definitive progress on all the handover items/industrialisation to Operations
+
+Priorities for ___next_week___
+V7.2 development candidates
+StageGate prep with George
+
+Where do I need help with?
+Ops to be more dynamic in confirming what else they need in order to satisfy the completion of the transfer of responsibilities
+
+FYI OOO on Tue 19th Feb
+
+George
+What keeps me awake
+FlightAware's impact on much of H1 roadmap (G2M Strategy, SIP)
+A lot going on
+Priorities for ___next_week___
+FlightAware Operationalization Kickoff and Monitoring
+Space-based SIP (non-FlightAware aspects)
+FlightAware Cebu-OOOI negotiation support
+FR-A G3
+Where do I need help with?
+FR-A G3 (Paul)
+AA2000 GX planning (Alex)
+
+Elham:
+What keeps me awake
+I still haven't seen the AIRCOM cloud database. Hard to get a hold of AIRCOM team (Yanik, Luca, Iulian,..)
+
+Priorities for ___next_week___
+Download data from demo server and look into their content
+Understand the AIRCOM configurations
+Finish up reading
+Hang out with Igor
+
+Where do I need help with?
+Alex and George – please give me feedback.
+Find airlines to speak to/interview (should I sync with Sergei from FT)
+Do we have FRI/RFP that we didn't get accepted with an explanation why
+
+
+Ian:
+
+What keeps me awake
+Uncertainty over AS releases: dates, how much capacity is taken up by 'technical debt' + reliability of meeting a release date
+Licensing – it doesn't work  well for multiple products across separate contracts
+
+Priorities for ___next_week___
+Set time aside for walking through FlightPlanner with Elham and George
+Spend some time with Neil to discuss prep for the next Pilot Brief Portal gate
+Meet with Luc Gregoire for preparation to present the FP Host migration final phase
+Workshops in Montreal
+DTN contract review and documenting changes required by SOA in readiness for meeting on 6 Feb
+Get some ideas from George & Elham for things to do over the weekend
+
+
+
+
+
+
+Where do I need help with?
+Nothing over the coming week
+
+
+Alex: 
+What keeps me awake? 
+7.0 release date & x-function process changes – CS & ServiceOps introducing new processes, already 2 months late, etc.
+Seeing little progress on 7.1 estimation/release date from Eng despite cadencing
+GetWell: Eng Design+BoM and CAD migration plan for Cloud customers are critical path - completion date tbc
+What are my priorities for ___next_week___? 
+1. Update ASP/FM backlog list with new features (CAD need this pre- YUL workshop – super urgent)
+2. Update GetWell status slides (due for Thurs) and meetings
+3. ASP Def Docs review updates (will be used in Eng gap analysis workshop in YUL)
+4. Summary of each session aim in YUL visit (plan what we do in YUL)
+5. Issue comm to customers of V7 release through Brigitte – draft reviewed by IG+GG+NS (thankyou!)
+6. Issue comm internally re: 28Jan release and Cloud separate – pending clarity/blockers from x-functions
+7. Airbus contractual report for MCCA (due end Jan), and how/who to send to Airbus
+8. WebServices use case summary slides (FT input needed) – SITA CIS DataConnectAPI is currently in customer trials so we can add our customers to them, once technical feasibility is first confirmed.
+9. Support Neil with ASP v7.0 StageGate 3 - LT review session on Friday 25th.
+10. Attend YUL workshops/meetings next - week - onsite from 29 Jan through to 5 Feb.
+11. License approvals still not cleared, so kick a couple
+Where do I need help?
+Email overload (across org) - apologies but non-urgent may not be answered
+Other PMs to help push the license approvals and 7.1/7.2 planning – expiries looming
+Info on FT use cases for WebServices from FT team
+
+
+Evi
+
+What keeps me awake
+Workload & priorities (new specs, CCRs, opportunities support, daily issues)
+
+Priorities for ___next_week___
+Final Support on 2 opportunities (MEA by 15th, ACI by 18th) - final phase
+Closing /Planning new request for Air Caraibes
+Q1 2019 design specs
+2  call with VA (features demo, discussion on new integration)
+Renewing VA Contract
+Meeting with Etihad Crew Manager (London)
+CCRs (aeroflot, ETD focus)
+Investigate slow ETD CPM (Soa side) response (Leon)
+Planning customer visits (flydubai, philippine airlines pending)
+Preparing customer visits (ETD, FB, VA , PAL) starting March 4th |Support Hong Kong Airlines RFI (informal at the moment)
+Prepare Hamburg PAX panel – help ETD/VA build their case to assure attendance
+Monitor upcoming gates
+IOT Overhead Bins
+
+Where do I need help with?
+VA contract
+Igor
+
+What keeps me awake?
+JET LAG and my inbox piling up
+
+___next_week___ prios
+Operating plan alignment
+Road Map alignment with engineering
+Preparation for NG workshops
+Alignment with Elham and George in YUL
+
+Where do I need help
+Verify and check my alignment steps once I reach out
+
+Info:
+Survey, any questions?
+Weekend stay vs compensation guideline
+
+What keeps me awake
+Lots to do but still in the process of ramping up but getting better
+
+Priorities for ___next_week___
+FlightTracker SIP
+Flight Route Alerting Gate 3 incl. presentation
+Synthetic OOOIs kickoff meetings (w. BDM and FR24)
+Support Kal with FlightAware negotiation
+AA2000 handover
+AIRCOM server license renewals
+MapServer G3 slide for Christophe
+Review Roadmap presentation
+Continue my onboarding (ASPO , Flight Tracking and Flight Planning)
+Arrange visits for Igor & UK team to Burgundy Lion OCC and general Montreal ambassador duties ;-)
+
+
+
+
+
+
+
+
+
+
+Where do I need help with?
+FlightTracker SIP (Paul)
+FlightExplorer EoL (Paul)
+eWAS (Paul)
+Flight Route Alerting Gate 2 presentation (Paul questions only)
+
+
+Elham:
+
+What keeps me awake
+So much to learn … so much history... so many relevant projects … Lying Tv Land GIF by #Impastor - Find & Share on GIPHY
+
+
+Priorities for ___next_week___
+Review my findings (use cases/concepts/ideas related to the DataSense and Flight Ops analytics) with PYC on Friday
+Get product demos / talk to Flight ops PMs/Leads to understand their products
+Play with the demo server
+Understand the teams need for a "Group data sharing" space (what should be exposed there)
+
+Where do I need help with?
+Need input from you guys about my findings (feedback). Also I want you to know what I am doing (awareness). Should I do it individually? Group? over phone? @YUL?
+When does everyone leave YUL? I am thinking of taking a few days off going back home.
+>> Ian's leaving on 6 Feb
+
+
+Ian:
+
+What keeps me awake
+Cloud migration final phase
+
+Priorities for ___next_week___
+Preparation for the Flight Planning strategy meeting
+DTN contract review and documenting changes required by SOA in readiness for meeting on 6 Feb
+Populating feature suggestions based on recent FlightPlanner feedback into TFS
+Obtaining confirmation on 7.1 target release date to accommodate callsign similarity handling
+Digital NOTAMs
+
+Where do I need help with?
+FP strategy presentation (help from Igor)
+DTN contract review (help from Kal)
+
+Evi:
+
+What keeps me awake
+Workload- Assuring we succeed on or RFPs
+
+Priorities for ___next_week___
+Roadmap 2019 + Gate
+Supporting 2 opportunities (MEA by 15th, ACI by 18th) - final phase
+Finalize 2018 Q4 Release notes for 3.3.0 (features descriptions, pricing, visuals, etc.) & socialize/promote new features to customers – final phase
+Preparing customer visits (ETD, FB, VA , PAL) starting March 4th | agendas, socialze crewcompanion, inlifht connectivity
+
+In parallel:
+VA new support contract—push new features $$
+Prepare Hamburg PAX panel – help ETD/VA build their case to assure attendance
+ Q1 2019 features specs
+CCRs
+Monitor upcoming gates (crew companion G1, inflight connectivity G1, retail new G0
+
+
+Where do I need help with?
+Roadmap 2019
+
+Paul:
+
+What keeps me awake -
+The volume of ongoing activity and the pace of the process of handling over routine activities to Ops
+
+Targets for this ___next_week___
+Progress Gate prep
+Work with IOSA auditor to get a response for Indigo
+Review missing ADSB situation after Space Based restored
+Automated Billing discussions
+Korean Air Aircraft Tracking RFP
+
+
+Help required
+SIP??
+Get buy in from Service Ops to support "Things not to do any more"
+
+
+Alex: 
+What keeps me awake? 
+7.0 release date indecision/unavailability (and comm to customers)
+7.1 estimation/date still incomplete  
+GetWell - handover from Rola to Romain, WS#1 Zaid left SOA, poor visibility of Infra changes, CAD timings 
+ What are my priorities for ___next_week___? 
+Finalise the ASP/FM backlog list for YUL workshop pre-work
+Backlog of license approvals.
+Summarise AFR meeting before the opportunity passes
+Collate slides of WebServices use cases for sharing with SITA CIS (to enable trial)
+Confirm Eng are fully committed to 28 Jan v7.0 – send precommunication to Premise customers
+Chase Eng on 7.1 estimation
+Support Neil with v7.0 SG3 socialisation with LT
+Preparation for visit to YUL 28Jan-6Feb 
+GetWell Prod Def docs – review actions
+  Where do I need help?
+All those who did not review FM/ASP/ASP+ Prod Def Docs by 11 Jan EOD – do so urgently if you want your input.  
+
+
+Toby:
+What keeps me awake-
+Handover of ongoing topics ahead of short absence
+
+
+
+Priorities for ___next_week___-
+Assigned handover items are progressed by owners
+Emirates & easyjet trial offer for eWAS Dsp for Feb; BAB WB's to be assessed & understood by BDM's post Team review
+CrewTab quarterly release content is shaped into advisory roadmap
+RFP response for Panasonic Aviation (Air Asia) eWAS Pilot response with one off new weather source added
+
+Any help needed?
+Just the super team to work well on handed over topics
+
+
+
+
+
+
+
+
+
+
+
+
+
+George
+What keeps me awake
+Lots to do but still in the process of ramping up  
+Priorities for ___next_week___
+Work on Flight Route Alerting Gate review (with Paul)
+Synthetic OOOIs
+Prepare AA2000 next steps (alignment and handover)
+Support Alex, Paul and Ian with AIRCOM server license renewals
+Familiarization with FlightTracker billing and how to improve it
+Provide  feedback to Kal re: FlightAware nego and Christophe re: MapServer
+Continue my onboarding (ASPO, Flight Tracking and Flight Planning) 
+
+Where do I need help with?
+All good
+
+Igor
+What keeps me awake?
+Strategy next step
+FP Strategy
+NG prep workshops
+7.1 scope commitment
+Gates submission
+Priorities for ___next_week___  
+Performance
+Team set up
+Road Map and Operating Plan
+FT SpaceBased SIP
+Montreal prep
+Where do I need help with?
+Montreal prep (by Flight Ops PMs)
+Road Map Operating Plan (All)
+Any update on team governance
+General updates
+Portfolio head weekly alignment
+In Montreal 22nd Jan to 6th of Feb
+
+Igor
+
+What keeps me awake
+Lack of clarity within the team on strategy, working together, roles
+
+What is ___next_week___ for me
+Operating plan, road map – presenting to Dom first draft on Friday
+Performance Reviews
+
+Where do I need help
+Road Map excel file review, operating plan inputs?
+
+Other Info
+Team governance – share point, teams?
+Release management lead for AIRCOM platform
+Graduate recruiting
+
+George: 
+What keeps me awake
+Resolution of gaps in Space Based ADS-B data
+
+Priorities for ___next_week___
+Monitor and support the resolution of missing Space Based ADS-B data
+Review action items and prepare for upcoming Gate review (with Paul)
+Continue working on getting SLA for AA2000
+Familiarization with FlightTracker billing and how to improve it
+Support Alex and Paul with AIRCOM server license renewals
+Look into how to respond to open ticket on how to demonstrate that FlightTracker meets IATA Operational Safety Audit (IOSA) requirements (requested by operator in India)
+Continue my onboarding (ASPO architecture, Flight Planning, Flight Tracking)
+
+Where do I need help with? 
+Nothing else at the moment (but possibly permission access to Salesforce.com if no headway is made this week)
+More training needed re: FT
+
+
+Ian:
+What keeps me awake?
+FP Get-Well
+
+Priorities for ___next_week___?
+Preparation for Flight Planning strategy discussion with LT
+Preparation for GF to FP project review
+Discuss GF EOL notification strategy with RVPs
+Complete input to Avianca & JetBlue RFPs
+Review of internal training collateral for Sophie Schell
+Met Office meeting on Tuesday
+Architecture review for Pilot Brief Portal
+Catch up with Architecture team for FP Host migration
+
+What do I need help with?
+Prep for the FP strategy discussion with LT
+Schedule some time with Igor 16-18 Jan
+Prep for discussion with DTN (Kal)
+
+
+Alex:
+What keeps me awake?
+7.0 release date indecision/unavailability (and comm to customers) & StageGate 3
+7.1 estimation/date still unknown
+GetWell - handover from Rola to Romain, WS#1 Zaid left SOA, poor visibility of Infra changes, CAD timings
+
+What are my priorities for ___next_week___?
+Chase Eng on 7.0 date
+Work with Neil on 7.0 SG 3
+Chase Eng on 7.1 estimation
+Provide 7.0 status update to Igor/Dom (/LT)
+Preparation for Air France visit on 15th Jan
+Preparation for visit to YUL 28Jan-6Feb
+DataHub & ASP G2M discussions (Fri 11 Jan)
+Intro to SITA CSI DataConnect API (Fri 11 Jan) - potential for bundle/understand if overlap
+GetWell Prod Def docs review due on Fri 11 Jan, so next - week will action changes
+
+Where do I need help?
+All those assigned to review FM/ASP/ASP+ Prod Def Docs by 11 Jan EOD.
+GetWell confirmation with NS who Zaid has handed over to.
+
+Toby:
+What keeps me awake?
+>>>eWAS Dispatch opps with Emirates & easyjet (with coming planned absence) makes speed of essence; BDM's hungry to progress these 2 x opps; new request for localisation of some services to Russian Airlines; eWAS config support to Nick's Ops Team
+What are my priorities for ___next_week___?
+>>>>End of year reviews; eWAS Dsp advice to BDM's ; resumption of eWAS Pilot Must Win views with BDM's ready for post SKO push with our BDMs; creation of similar Must Win view for CrewTab & EFB; help Daniel Froehly with material needed to go back to Aeroflot on localisation willingness; check progress on Etihad eWAS Implementation
+Where do I need help?
+>>>>Flightaware data for demo systems for eWAS Dsp;
+
+Paul
+What keeps me awake?
+Missing ADSB data and the frustration with lack of progress in YUL development
+Data limitations due final Iridium launch
+
+What are my priorities for ___next_week___?
+Indigo response re IOSA
+Establish contact with Eurocontrol about their GADSS Distress Tracking Repository processes
+Prep for automate billing meeting with Rita
+Training for PK and Elif
+Continue process for commissioning handover to Operations for FA and DTN
+
+Where do I need help?
+Space Based aircraft limits
+
+
+
+Evi:
+
+What keeps me awake
+How to assure winning some opportunities for CrewTab, how to stay competitive/ 2019 features
+
+Priorities for ___next_week___
+Supporting 2 opportunities (MEA by 15th, ACI by 18th)
+Finalizing 2018 Q4 Release notes for 3.3.0 (features descriptions, pricing, visuals, etc.) & socialize/promote new features to customers
+Preparing customer visits (ETD, FB, VA , PAL) starting Jan 21 AUH
+Agendas & material
+Crew Companion & Connectivity case to be built so to be presented to customers for feedback validation // work with PS on IOT CrewTab case
+Start preparing Hamburg PAX panel – help ETD/VA build their case to assure attendance
+Start working on specs for Q1 2019 features
+CCRs
+
+
+Where do I need help with?
+Commercial opportunities support
+
+
+Elham:
+
+What keeps me awake
+Uncertainty about my role and responsibilities
+
+Priorities for ___next_week___
+Get product demos / talk to Flight ops PMs to understand their products
+Play with the demo server
+Create a mental model of analytics players in SITA and SITAONAIR
+Gather use cases/concepts/ideas related to the DataSense and Flight Ops analytics (including Fuel related ideas)
+Understand the teams need for a "Group data sharing" space (what should be exposed there)
+
+Where do I need help with?
+Getting demo of our products
+Forwarding any customer focus meeting note that might be relevant
+
+Igor – change the time of the meeting to Wednesdays 14h UK time
+
+Paul
+What keeps me awake:
+Hand over to service OPS – no clarity on required steps to complete this
+No CAD resources available
+Missing data issues for ADSB feed
+Next steps:
+Outage info to customers through OPS
+FT Web roll out document for customers
+Gates preparation
+Where do I need help?
+Transfer of tasks to OPS
+TAROM contract extension clarification for support
+
+Ian
+What keeps me awake:
+RFPs are causing extra work with challenging timelines
+
+What are my tasks for ___next_week___:
+Socializing pilot brief portal Gate
+Year-end performance review
+DTN contract
+
+Where I need help with:
+Completing the RFP
+
+Alex:
+What keeps me awake:
+GetWell WS3 documents - finalized ASP yesterday, first draft of FM/ASP+ yesterday.  Review 13Dec-11Jan, then action updates.
+7.0 release (+date) and WS1 environment rework and CAD clash
+7.1 scoping
+7.2 scoping
+
+What are my tasks for ___next_week___:
+Turkish Airlines RFP response + draft technical proposal (A350 portion only)
+Air France contract for CPDLC - technical wording
+Continue to work on the content of FM GetWell WS3 as well as the pricing
+7.0 and 7.1 StageGates support to Neil
+
+Where do I need help:
+Need to book travel for YUL (21Jan-1Feb)?  Would like to spend extra time on GetWell WS#2 with Eng.
+Requested to attend FM meeting with AF (w/b 14 Jan) with BDM, SAM, CS and CAD - away from office for most of Jan if go to AF.
+7.0 release timelines + CAD issues may require escalation management
+
+Toby
+What keeps me awake:
+M&A activities
+Ongoing opportunities with eWAS and creeping in of eWAS Dispatch
+Etihad implementation – issues with connection to MQ – feeding flight plans
+
+___next_week___
+Progress on M&A
+Gates for CrewTab
+Market sizing for M&A Activities
+
+
+Evi
+What keeps me awake?
+Lost opportunity – how can we be more competitive? What do we need to change to be more successful.
+
+___next_week___:
+Evaluation of CrewCompanion mock ups
+Gate submission
+New release – end of December
+Planning customer visits
+
+Where do I need help:
+I do not need help
+
+
+George:
+What keeps me awake
+How else can I help the team?
+
+Priorities for ___next_week___
+Help Alex with AA2000
+Document plan around missing Space Based ADS-B data
+Support Paul with Gate reviews / action items
+Get access to FT demo server
+Continue my onboarding w.r.t. internal stakeholders+processes,  FT, Product Roadmaps?
+
+Where do I need help with? 
+Onboarding: what are tools, apps, databases that I don’t know of that I need to request access to (e.g. TFS)
+
+
+Igor:
+What keeps me awake
+Too many tasks open prior to year, like different Gates, supplier meetings, negotiations...
+
+Priorities for ___next_week___
+Initiate the search for the Graduate
+George onboarding
+Close the topic of 7.1 scope
+Strategy presentation
+
+Where do I need help with?
+Graduate role description – Toby
+Strategy presentation – Romain
+
+Ian:
+What keeps me awake
+Too much to complete ahead of year end.
+
+Priorities for ___next_week___
+Team meeting in GVA
+Preparation for OMA meeting
+Alignment on DTN approach & communicate position with John T
+
+Where do I need help with?
+Validation of Pilot Brief approach
+
+Toby:
+What keeps me awake:
+Project Friend
+Busy December - lunches/dinners/weight - objectives
+Safety Line for SIA
+
+Priorities for ___next_week___:
+NDA finish Safety Line
+Arrange a workshop date for Mid - December with Safety Line
+Review Gate submissions
+
+Where do i need help
+Attendance of SafetyLine workshop IG/AH/PR
+
+
+Alex:
+What keeps me awake:
+GetWell WS3 documents - need dedicated time to concentrate, and interruptions/meetings are too many (lost two days to vacation)
+7.1 scoping (and then SG) - trying to draw down to a date and fixed scope so that we can then start work on 7.2 scoping and dates
+7.0 release (+date) and WS1 environment rework - the two seem to be clashing
+7.0 SG is getting tied up with WS1 and UAT issues.
+
+What are my tasks for ___next_week___:
+ValueProp Training tomorrow
+Prod Mgmt Training all week next - week
+JAL MIAM internal comm
+Appraisal/performance feedback
+Friday 7th vacation (1 more still to book)
+
+Where do I need help:
+Struggling to update the documents, need to pretty much put out-of-office on (escalations only), and dedicate week of 17-20 Dec
+Evi:
+
+What keeps me awake
+How to assure winning some opportunities for CrewTab, how to stay competitive/ 2019 features
+
+Priorities for ___next_week___
+Supporting 2 opportunities (MEA by 15th, ACI by 18th)
+Finalizing 2018 Q4 Release notes for 3.3.0 (features descriptions, pricing, visuals, etc.) & socialize/promote new features to customers
+Preparing customer visits (ETD, FB, VA , PAL) starting Jan 21 AUH
+Agendas & material
+Crew Companion & Connectivity case to be built so to be presented to customers for feedback validation // work with PS on IOT CrewTab case
+Start preparing Hamburg PAX panel – help ETD/VA build their case to assure attendance
+Start working on specs for Q1 2019 features
+CCRs
+
+
+Where do I need help with?
+Commercial opportunities support
+
+
+Mahen:
+What keeps me awake
+Air Transat final presentation (commercial/functional)
+
+Priorities for ___next_week___
+Gate-5 and draft version for EFB AVIO/Flightman
+Summary of what support for existing customers vs financial analysis
+SCOOT – Project closure with Sunil and team
+Help Dan Muller and David to close the TAROM project
+Prepare AVIO NG notes for existing customers
+
+Where do I need help with?
+Meeting with Thales

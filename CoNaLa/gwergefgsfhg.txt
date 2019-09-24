@@ -1,0 +1,13 @@
+dict_of_questions_and_code.keys() --> dict_keys(['sort a nested list by two elements', 
+'converting integer to list in python', 
+'converting byte string in unicode string', 
+'list of arguments with argparse', 
+'how to convert a date string to a datetime object ', 
+'how to efficiently convert matlab engine arrays to numpy ndarray ', 
+'converting html to text with python', 
+'regex for repeating words in a string in python', 
+'ordering a list of dictionaries in python', 
+'two combination lists from one list', 
+'creating a list of dictionaries in python', 
+'how to zip lists in a list', 
+'how to display image in pygame '])
